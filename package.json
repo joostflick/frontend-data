@@ -1,0 +1,22 @@
+{
+  "name": "frontend-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joostflick/frontend-data.git"
+  },
+  "author": "Joost Flick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joostflick/frontend-data/issues"
+  },
+  "homepage": "https://github.com/joostflick/frontend-data#readme",
+  "dependencies": {
+    "node-oba-api-wrapper": "github:maanlamp/node-oba-api-wrapper"
+  }
+}
