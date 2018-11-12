@@ -1,4 +1,5 @@
 const OBAWrapper = require('node-oba-api-wrapper')
+var fs = require('fs')
 require('dotenv').config()
 
 const client = new OBAWrapper({
@@ -10,29 +11,31 @@ client
     q: 'test',
     refine: true,
     facet: 'type(book)',
-    count: 500
+    count: 60
   })
   .then(results => {
     var boeken = results.map(book => createBookInstance(book))
-    console.log(boeken)
+    fs.writeFile(
+      'd3/data.json',
+      JSON.stringify(boeken, null, '  '),
+      'utf8',
+      function() {}
+    )
   })
 
 function createBookInstance(book) {
   bookInstance = {
     titel: book.titles.title.$t,
     language:
-      typeof book.languages === 'undefined' ||
-      typeof book.languages.language === 'undefined'
+      !book.languages || !book.languages.language
         ? 'Language unknown'
         : book.languages.language.$t,
     year:
-      typeof book.publication === 'undefined' ||
-      typeof book.publication.year === 'undefined'
+      !book.publication || !book.publication.year
         ? 'Year unknown'
         : book.publication.year.$t,
     author:
-      typeof book.authors === 'undefined' ||
-      typeof book.authors['main-author'] === 'undefined'
+      !book.authors || !book.authors['main-author']
         ? 'Author unknown'
         : book.authors['main-author'].$t
   }
