@@ -7,3 +7,12 @@ svg {
   width: 100vw;
   overflow-y: hidden;
 }
+
+.grid path {
+  stroke-width: 1;
+}
+
+.grid .tick line {
+  stroke: #9faaae;
+  stroke-opacity: 0.5;
+}

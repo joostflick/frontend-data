@@ -8,10 +8,10 @@ const client = new OBAWrapper({
 })
 client
   .get('search', {
-    q: 'website',
+    q: 'test',
     refine: true,
     facet: 'type(book)',
-    count: 5000
+    count: 1000
   })
   .then(results => {
     console.log(JSON.stringify(results))
