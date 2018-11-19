@@ -1,15 +1,16 @@
 var data = require('./data.json')
-var dataPie = require('./dataPie.json')
 
-var languagesCount = d3
-  .nest()
-  .key(function(d) {
-    return d.language
-  })
-  .rollup(function(v) {
-    return v.length
-  })
-  .entries(data)
+function languagesCounter(data) {
+  return d3
+    .nest()
+    .key(function(d) {
+      return d.language
+    })
+    .rollup(function(v) {
+      return v.length
+    })
+    .entries(data)
+}
 //console.log(languagesCount)
 //console.log(countTotal(languagesCount))
 
@@ -22,17 +23,6 @@ function countTotal(array) {
   return total
 }
 
-//percentages for pie chart
-var pie_data = []
-for (var a = 0; a < languagesCount.length; a++) {
-  // simple logic to calculate percentage data for the pie
-  pie_data[a] = {
-    language: languagesCount[a].key,
-    percent: (languagesCount[a].value / countTotal(languagesCount)) * 100
-  }
-}
-console.log(pie_data)
-
 var maxYear = d3.max(data, function(d) {
   return d.year
 })
@@ -44,74 +34,76 @@ var yearAvg = d3.mean(data, function(d) {
 })
 
 //barchart
+function updateBarChart(data) {
+  var languagesCount = languagesCounter(data)
+  const margin = 60
+  const width = 1000 - 2 * margin
+  const height = 600 - 2 * margin
 
-const margin = 60
-const width = 1000 - 2 * margin
-const height = 600 - 2 * margin
+  const svg = d3.select('.barchart')
 
-const svg = d3.select('.barchart')
+  const chart = svg
+    .append('g')
+    .attr('transform', `translate(${margin}, ${margin})`)
 
-const chart = svg
-  .append('g')
-  .attr('transform', `translate(${margin}, ${margin})`)
+  const yScale = d3
+    .scaleLinear()
+    .range([height, 0])
+    .domain([0, languagesCount[0].value + 10])
 
-const yScale = d3
-  .scaleLinear()
-  .range([height, 0])
-  .domain([0, languagesCount[0].value + 10])
+  chart.append('g').call(d3.axisLeft(yScale))
 
-chart.append('g').call(d3.axisLeft(yScale))
+  const xScale = d3
+    .scaleBand()
+    .range([0, width])
+    .domain(languagesCount.map(d => d.key))
+    .padding(0.2)
 
-const xScale = d3
-  .scaleBand()
-  .range([0, width])
-  .domain(languagesCount.map(d => d.key))
-  .padding(0.2)
+  chart
+    .append('g')
+    .attr('transform', `translate(0, ${height})`)
+    .call(d3.axisBottom(xScale))
 
-chart
-  .append('g')
-  .attr('transform', `translate(0, ${height})`)
-  .call(d3.axisBottom(xScale))
+  chart
+    .selectAll()
+    .data(languagesCount)
+    .enter()
+    .append('rect')
+    .attr('x', s => xScale(s.key))
+    .attr('y', s => yScale(s.value))
+    .attr('height', s => height - yScale(s.value))
+    .attr('width', xScale.bandwidth())
 
-chart
-  .selectAll()
-  .data(languagesCount)
-  .enter()
-  .append('rect')
-  .attr('x', s => xScale(s.key))
-  .attr('y', s => yScale(s.value))
-  .attr('height', s => height - yScale(s.value))
-  .attr('width', xScale.bandwidth())
+    .attr('x', (actual, index, array) => xScale(actual.key))
 
-  .attr('x', (actual, index, array) => xScale(actual.key))
+  //horizontal lines
+  chart
+    .append('g')
+    .attr('class', 'grid')
+    .call(
+      d3
+        .axisLeft()
+        .scale(yScale)
+        .tickSize(-width, 0, 0)
+        .tickFormat('')
+    )
 
-//horizontal lines
-chart
-  .append('g')
-  .attr('class', 'grid')
-  .call(
-    d3
-      .axisLeft()
-      .scale(yScale)
-      .tickSize(-width, 0, 0)
-      .tickFormat('')
-  )
+  //labels
+  svg
+    .append('text')
+    .attr('x', -(height / 2) - margin)
+    .attr('y', margin / 2.4)
+    .attr('transform', 'rotate(-90)')
+    .attr('text-anchor', 'middle')
+    .text('Aantal boeken')
 
-//labels
-svg
-  .append('text')
-  .attr('x', -(height / 2) - margin)
-  .attr('y', margin / 2.4)
-  .attr('transform', 'rotate(-90)')
-  .attr('text-anchor', 'middle')
-  .text('Aantal boeken')
-
-svg
-  .append('text')
-  .attr('x', width / 2 + margin)
-  .attr('y', 40)
-  .attr('text-anchor', 'middle')
-  .text('Populariteit van boeken over het web')
+  svg
+    .append('text')
+    .attr('x', width / 2 + margin)
+    .attr('y', 40)
+    .attr('text-anchor', 'middle')
+    .text('Populariteit van boeken over het web')
+}
 
 // pie chart http://www.tutorialsteacher.com/d3js/create-pie-chart-using-d3js
 var svgPie = d3.select('.piechart'),
@@ -145,12 +137,21 @@ var label = d3
   .outerRadius(radiusPie)
   .innerRadius(radiusPie - 80)
 
-drawPie(pie_data)
-
-function drawPie(data) {
+function updatePieChart(data) {
+  var pie_data = []
+  var languagesCount = languagesCounter(data)
+  //percentages for pie chart
+  for (var a = 0; a < languagesCount.length; a++) {
+    // simple logic to calculate percentage data for the pie
+    pie_data[a] = {
+      language: languagesCount[a].key,
+      percent: (languagesCount[a].value / countTotal(languagesCount)) * 100
+    }
+  }
+  console.log(pie_data)
   var arc = g
     .selectAll('.arc')
-    .data(pie(data))
+    .data(pie(pie_data))
     .enter()
     .append('g')
     .attr('class', 'arc')
@@ -162,8 +163,6 @@ function drawPie(data) {
       return color(d.data.language)
     })
 
-  console.log(arc)
-
   arc
     .append('text')
     .attr('transform', function(d) {
@@ -172,11 +171,36 @@ function drawPie(data) {
     .text(function(d) {
       return d.data.language
     })
+
+  svgPie
+    .append('g')
+    .attr('transform', 'translate(' + (widthPie / 2 - 120) + ',' + 20 + ')')
+    .append('text')
+    .text('Percentage taal')
+    .attr('class', 'title')
 }
 
-svgPie
-  .append('g')
-  .attr('transform', 'translate(' + (width / 2 - 120) + ',' + 20 + ')')
-  .append('text')
-  .text('Percentage taal')
-  .attr('class', 'title')
+var early = data.filter(item => item.year < 2000 && item.year > 1990)
+var mid = data.filter(item => item.year < 2010 && item.year > 2000)
+var late = data.filter(item => item.year > 2010)
+//console.log(early, mid, late)
+
+// dropdown
+// http://bl.ocks.org/jhubley/17aa30fd98eb0cc7072f
+d3.select('#inds').on('change', function() {
+  var sect = document.getElementById('inds')
+  var section = sect.options[sect.selectedIndex].value
+  // this prints either 1990, 2000 or 2010
+  if (section == 1990) {
+    updateBarChart(early)
+    updatePieChart(early)
+  } else if (section == 2000) {
+    updateBarChart(mid)
+    updatePieChart(mid)
+  } else if (section == 2010) {
+    updateBarChart(late)
+    updatePieChart(late)
+  } else {
+    console.log('hier gaat iets fout')
+  }
+})

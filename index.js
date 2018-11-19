@@ -8,7 +8,7 @@ const client = new OBAWrapper({
 })
 client
   .get('search', {
-    q: 'nederland',
+    q: 'website',
     refine: true,
     facet: 'type(book)',
     count: 1000
@@ -16,7 +16,9 @@ client
   .then(results => {
     console.log(JSON.stringify(results))
     var boeken = results.map(book => createBookInstance(book))
-    var cleanedBoeken = boeken.filter(book => book.year != null)
+    var cleanedBoeken = boeken.filter(
+      book => book.year != null && book.language
+    )
     fs.writeFile(
       'd3/data.json',
       JSON.stringify(cleanedBoeken, null, '  '),
