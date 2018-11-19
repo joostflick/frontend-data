@@ -1,5 +1,5 @@
 var data = require('./data.json')
-console.log(data)
+var dataPie = require('./dataPie.json')
 
 var languagesCount = d3
   .nest()
@@ -10,7 +10,28 @@ var languagesCount = d3
     return v.length
   })
   .entries(data)
-console.log(JSON.stringify(languagesCount))
+//console.log(languagesCount)
+//console.log(countTotal(languagesCount))
+
+// add up all values in array
+function countTotal(array) {
+  var total = 0
+  array.forEach(function(d) {
+    total = total + d.value
+  })
+  return total
+}
+
+//percentages for pie chart
+var pie_data = []
+for (var a = 0; a < languagesCount.length; a++) {
+  // simple logic to calculate percentage data for the pie
+  pie_data[a] = {
+    language: languagesCount[a].key,
+    percent: (languagesCount[a].value / countTotal(languagesCount)) * 100
+  }
+}
+console.log(pie_data)
 
 var maxYear = d3.max(data, function(d) {
   return d.year
@@ -28,7 +49,7 @@ const margin = 60
 const width = 1000 - 2 * margin
 const height = 600 - 2 * margin
 
-const svg = d3.select('svg')
+const svg = d3.select('.barchart')
 
 const chart = svg
   .append('g')
@@ -37,7 +58,7 @@ const chart = svg
 const yScale = d3
   .scaleLinear()
   .range([height, 0])
-  .domain([0, languagesCount[0].value + 50])
+  .domain([0, languagesCount[0].value + 10])
 
 chart.append('g').call(d3.axisLeft(yScale))
 
@@ -91,3 +112,71 @@ svg
   .attr('y', 40)
   .attr('text-anchor', 'middle')
   .text('Populariteit van boeken over het web')
+
+// pie chart http://www.tutorialsteacher.com/d3js/create-pie-chart-using-d3js
+var svgPie = d3.select('.piechart'),
+  widthPie = svgPie.attr('width'),
+  heightPie = svgPie.attr('height'),
+  radiusPie = Math.min(widthPie, heightPie) / 2
+
+var g = svgPie
+  .append('g')
+  .attr('transform', 'translate(' + widthPie / 2 + ',' + heightPie / 2 + ')')
+
+var color = d3.scaleOrdinal([
+  '#4daf4a',
+  '#377eb8',
+  '#ff7f00',
+  '#984ea3',
+  '#e41a1c'
+])
+
+var pie = d3.pie().value(function(d) {
+  return d.percent
+})
+
+var path = d3
+  .arc()
+  .outerRadius(radiusPie - 10)
+  .innerRadius(0)
+
+var label = d3
+  .arc()
+  .outerRadius(radiusPie)
+  .innerRadius(radiusPie - 80)
+
+drawPie(pie_data)
+
+function drawPie(data) {
+  var arc = g
+    .selectAll('.arc')
+    .data(pie(data))
+    .enter()
+    .append('g')
+    .attr('class', 'arc')
+
+  arc
+    .append('path')
+    .attr('d', path)
+    .attr('fill', function(d) {
+      return color(d.data.language)
+    })
+
+  console.log(arc)
+
+  arc
+    .append('text')
+    .attr('transform', function(d) {
+      return 'translate(' + label.centroid(d) + ')'
+    })
+    .text(function(d) {
+      return d.data.language
+    })
+}
+
+svgPie
+  .append('g')
+  .attr('transform', 'translate(' + (width / 2 - 120) + ',' + 20 + ')')
+  .append('text')
+  .text('Percentage taal')
+  .attr('class', 'title')

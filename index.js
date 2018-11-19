@@ -8,7 +8,7 @@ const client = new OBAWrapper({
 })
 client
   .get('search', {
-    q: 'test',
+    q: 'nederland',
     refine: true,
     facet: 'type(book)',
     count: 1000
@@ -35,10 +35,6 @@ function createBookInstance(book) {
       !book.publication || !book.publication.year
         ? null
         : Number(book.publication.year.$t)
-    // author:
-    //   !book.authors || !book.authors['main-author']
-    //     ? 'Author unknown'
-    //     : book.authors['main-author'].$t
   }
   return bookInstance
 }

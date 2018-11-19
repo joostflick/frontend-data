@@ -2,11 +2,15 @@
 module.exports=[
   {
     "language": "dut",
-    "year": 2013
+    "year": 2012
   },
   {
     "language": "dut",
-    "year": 2013
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2005
   },
   {
     "language": "dut",
@@ -14,7 +18,647 @@ module.exports=[
   },
   {
     "language": "dut",
+    "year": 2002
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 2003
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2002
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2003
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 1987
+  },
+  {
+    "language": "dut",
+    "year": 1985
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 1978
+  },
+  {
+    "language": "dut",
+    "year": 1967
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 1996
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 1999
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 1986
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "eng",
+    "year": 1948
+  },
+  {
+    "language": "dut",
+    "year": 1946
+  },
+  {
+    "language": "Language unknown",
+    "year": null
+  },
+  {
+    "language": "eng",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 1998
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "fre",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 1993
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 1996
+  },
+  {
+    "language": "dut",
+    "year": 1933
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 1964
+  },
+  {
+    "language": "dut",
+    "year": 2002
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2003
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2003
+  },
+  {
+    "language": "dut",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "dut",
+    "year": 2002
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 1998
+  },
+  {
+    "language": "Language unknown",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
     "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 1988
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "Language unknown",
+    "year": 1989
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "Language unknown",
+    "year": 1965
+  },
+  {
+    "language": "dut",
+    "year": 1981
+  },
+  {
+    "language": "Language unknown",
+    "year": 1989
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 1883
+  },
+  {
+    "language": "dut",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 1998
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 1903
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "Language unknown",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "fre",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 1951
+  },
+  {
+    "language": "dut",
+    "year": 1987
+  },
+  {
+    "language": "dut",
+    "year": 1957
+  },
+  {
+    "language": "dut",
+    "year": 1947
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 1999
+  },
+  {
+    "language": "dut",
+    "year": 2002
+  },
+  {
+    "language": "dut",
+    "year": 1999
+  },
+  {
+    "language": "dut",
+    "year": 1949
+  },
+  {
+    "language": "dut",
+    "year": 1941
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 1913
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2003
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 1985
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 1953
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 1910
+  },
+  {
+    "language": "Language unknown",
+    "year": 1981
+  },
+  {
+    "language": "dut",
+    "year": 2016
   },
   {
     "language": "dut",
@@ -22,55 +666,11 @@ module.exports=[
   },
   {
     "language": "dut",
-    "year": 2006
-  },
-  {
-    "language": "eng",
-    "year": 2017
+    "year": 1997
   },
   {
     "language": "dut",
-    "year": 2007
-  },
-  {
-    "language": "dut",
-    "year": 2002
-  },
-  {
-    "language": "eng",
-    "year": 1995
-  },
-  {
-    "language": "eng",
-    "year": 1986
-  },
-  {
-    "language": "dut",
-    "year": 2002
-  },
-  {
-    "language": "dut",
-    "year": 2008
-  },
-  {
-    "language": "dut",
-    "year": 2003
-  },
-  {
-    "language": "dut",
-    "year": 2015
-  },
-  {
-    "language": "dut",
-    "year": 2006
-  },
-  {
-    "language": "dut",
-    "year": 1976
-  },
-  {
-    "language": "eng",
-    "year": 2004
+    "year": 1955
   },
   {
     "language": "dut",
@@ -78,47 +678,19 @@ module.exports=[
   },
   {
     "language": "dut",
-    "year": 2008
+    "year": 2011
   },
   {
     "language": "dut",
-    "year": 2001
-  },
-  {
-    "language": "dut",
-    "year": 1980
-  },
-  {
-    "language": "eng",
-    "year": 2015
-  },
-  {
-    "language": "dut",
-    "year": 2001
-  },
-  {
-    "language": "eng",
     "year": 2009
   },
   {
     "language": "dut",
-    "year": 1991
+    "year": 2006
   },
   {
     "language": "dut",
-    "year": 2002
-  },
-  {
-    "language": "dut",
-    "year": 1991
-  },
-  {
-    "language": "eng",
-    "year": 2013
-  },
-  {
-    "language": "dut",
-    "year": 1985
+    "year": 2008
   },
   {
     "language": "dut",
@@ -126,91 +698,159 @@ module.exports=[
   },
   {
     "language": "dut",
-    "year": 1962
+    "year": 2008
   },
   {
     "language": "dut",
-    "year": 1959
+    "year": 1997
+  },
+  {
+    "language": "dut",
+    "year": 2008
   },
   {
     "language": "dut",
     "year": 2016
-  },
-  {
-    "language": "dut",
-    "year": 2018
-  },
-  {
-    "language": "dut",
-    "year": 1975
-  },
-  {
-    "language": "dut",
-    "year": 1964
-  },
-  {
-    "language": "Language unknown",
-    "year": 1993
-  },
-  {
-    "language": "eng",
-    "year": 2003
-  },
-  {
-    "language": "dut",
-    "year": 2007
-  },
-  {
-    "language": "dut",
-    "year": 2011
-  },
-  {
-    "language": "eng",
-    "year": 2014
-  },
-  {
-    "language": "dut",
-    "year": 2018
-  },
-  {
-    "language": "eng",
-    "year": 1990
-  },
-  {
-    "language": "dut",
-    "year": 2000
-  },
-  {
-    "language": "eng",
-    "year": 2014
-  },
-  {
-    "language": "dut",
-    "year": 2017
   },
   {
     "language": "dut",
     "year": 1998
   },
   {
-    "language": "Language unknown",
-    "year": 1946
+    "language": "dut",
+    "year": 2001
   },
   {
     "language": "dut",
-    "year": 2017
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 1996
+  },
+  {
+    "language": "dut",
+    "year": 1999
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 1990
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 1998
+  },
+  {
+    "language": "dut",
+    "year": 1931
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 1992
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 1997
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 1983
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 1983
+  },
+  {
+    "language": "dut",
+    "year": 1949
+  },
+  {
+    "language": "dut",
+    "year": 1989
+  },
+  {
+    "language": "dut",
+    "year": 1998
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 1985
+  },
+  {
+    "language": "dut",
+    "year": 1935
+  },
+  {
+    "language": "dut",
+    "year": 1942
   },
   {
     "language": "dut",
     "year": 2006
   },
   {
-    "language": "eng",
-    "year": 2014
+    "language": "dut",
+    "year": 2006
   },
   {
     "language": "dut",
-    "year": 2016
+    "year": 1997
+  },
+  {
+    "language": "dut",
+    "year": 1987
+  },
+  {
+    "language": "dut",
+    "year": 1993
   },
   {
     "language": "dut",
@@ -221,68 +861,8 @@ module.exports=[
     "year": 2008
   },
   {
-    "language": "eng",
-    "year": 2015
-  },
-  {
     "language": "dut",
-    "year": 2002
-  },
-  {
-    "language": "dut",
-    "year": 1989
-  },
-  {
-    "language": "eng",
-    "year": 2003
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 1982
-  },
-  {
-    "language": "dut",
-    "year": 1991
-  },
-  {
-    "language": "dut",
-    "year": 2007
-  },
-  {
-    "language": "eng",
-    "year": 2017
-  },
-  {
-    "language": "eng",
-    "year": 2007
-  },
-  {
-    "language": "dut",
-    "year": 2016
-  },
-  {
-    "language": "eng",
-    "year": 2018
-  },
-  {
-    "language": "dut",
-    "year": 1998
-  },
-  {
-    "language": "dut",
-    "year": 1999
-  },
-  {
-    "language": "dut",
-    "year": 1990
-  },
-  {
-    "language": "dut",
-    "year": 1991
+    "year": 2008
   },
   {
     "language": "dut",
@@ -290,107 +870,7 @@ module.exports=[
   },
   {
     "language": "dut",
-    "year": 1993
-  },
-  {
-    "language": "dut",
-    "year": 1994
-  },
-  {
-    "language": "eng",
-    "year": 2003
-  },
-  {
-    "language": "eng",
-    "year": 2001
-  },
-  {
-    "language": "eng",
-    "year": 1964
-  },
-  {
-    "language": "eng",
-    "year": 2011
-  },
-  {
-    "language": "dut",
-    "year": 1988
-  },
-  {
-    "language": "ger",
-    "year": 1956
-  },
-  {
-    "language": "dut",
-    "year": 1980
-  },
-  {
-    "language": "eng",
-    "year": 1992
-  },
-  {
-    "language": "dut",
-    "year": 1988
-  },
-  {
-    "language": "fre",
-    "year": 1988
-  },
-  {
-    "language": "dut",
-    "year": 2011
-  },
-  {
-    "language": "dut",
-    "year": 2010
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 2006
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 2010
-  },
-  {
-    "language": "dut",
-    "year": 1957
-  },
-  {
-    "language": "dut",
     "year": 1990
-  },
-  {
-    "language": "dut",
-    "year": 2003
-  },
-  {
-    "language": "dut",
-    "year": 2001
-  },
-  {
-    "language": "dut",
-    "year": 2016
-  },
-  {
-    "language": "dut",
-    "year": 2007
-  },
-  {
-    "language": "dut",
-    "year": 2007
-  },
-  {
-    "language": "dut",
-    "year": 2006
   },
   {
     "language": "dut",
@@ -399,6 +879,510 @@ module.exports=[
   {
     "language": "dut",
     "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 1997
+  },
+  {
+    "language": "eng",
+    "year": 2002
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 1976
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 1917
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 1983
+  },
+  {
+    "language": "dut",
+    "year": 1992
+  },
+  {
+    "language": "dut",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 1983
+  },
+  {
+    "language": "Language unknown",
+    "year": 1996
+  },
+  {
+    "language": "dut",
+    "year": 1981
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 1981
+  },
+  {
+    "language": "dut",
+    "year": 1979
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 1997
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "dut",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 1993
+  },
+  {
+    "language": "dut",
+    "year": 1993
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 1996
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 1987
+  },
+  {
+    "language": "dut",
+    "year": 1932
+  },
+  {
+    "language": "dut",
+    "year": 1979
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 1988
+  },
+  {
+    "language": "dut",
+    "year": 1963
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 1997
+  },
+  {
+    "language": "dut",
+    "year": 1986
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "Language unknown",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "Language unknown",
+    "year": 1989
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 1963
+  },
+  {
+    "language": "dut",
+    "year": 1855
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 1958
+  },
+  {
+    "language": "dut",
+    "year": 1998
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 1993
+  },
+  {
+    "language": "dut",
+    "year": 1997
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 1989
+  },
+  {
+    "language": "Language unknown",
+    "year": 1917
+  },
+  {
+    "language": "dut",
+    "year": 1989
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 1984
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 1987
+  },
+  {
+    "language": "mul",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 1988
+  },
+  {
+    "language": "dut",
+    "year": 1993
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 1988
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 1997
+  },
+  {
+    "language": "dut",
+    "year": 1985
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 1920
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 2003
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2003
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 1912
+  },
+  {
+    "language": "dut",
+    "year": 1987
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2018
   },
   {
     "language": "dut",
@@ -406,714 +1390,55 @@ module.exports=[
   },
   {
     "language": "dut",
-    "year": 2011
-  },
-  {
-    "language": "dut",
-    "year": 2004
-  },
-  {
-    "language": "dut",
-    "year": 2001
-  },
-  {
-    "language": "eng",
-    "year": 2002
-  },
-  {
-    "language": "dut",
-    "year": 2010
-  },
-  {
-    "language": "dut",
-    "year": 2014
-  },
-  {
-    "language": "dut",
-    "year": 2008
-  },
-  {
-    "language": "dut",
-    "year": 2012
-  },
-  {
-    "language": "dut",
-    "year": 2016
-  },
-  {
-    "language": "dut",
-    "year": 2017
-  },
-  {
-    "language": "eng",
-    "year": 2010
-  },
-  {
-    "language": "eng",
-    "year": 2013
-  },
-  {
-    "language": "eng",
-    "year": 2006
-  },
-  {
-    "language": "eng",
-    "year": 2012
-  },
-  {
-    "language": "dut",
-    "year": 2003
-  },
-  {
-    "language": "fre",
-    "year": 1929
-  },
-  {
-    "language": "eng",
-    "year": 2001
-  },
-  {
-    "language": "eng",
-    "year": 1993
-  },
-  {
-    "language": "dut",
-    "year": 2003
-  },
-  {
-    "language": "eng",
-    "year": 1864
-  },
-  {
-    "language": "dut",
-    "year": 2008
-  },
-  {
-    "language": "dut",
-    "year": 2003
-  },
-  {
-    "language": "Language unknown",
-    "year": 1996
-  },
-  {
-    "language": "dut",
-    "year": 2014
-  },
-  {
-    "language": "dut",
-    "year": 1998
-  },
-  {
-    "language": "eng",
-    "year": 2003
-  },
-  {
-    "language": "dut",
-    "year": 2004
-  },
-  {
-    "language": "dut",
-    "year": 2008
-  },
-  {
-    "language": "dut",
-    "year": 2017
-  },
-  {
-    "language": "eng",
-    "year": 2011
-  },
-  {
-    "language": "dut",
-    "year": 2003
-  },
-  {
-    "language": "dut",
-    "year": 2004
-  },
-  {
-    "language": "dut",
-    "year": 2008
-  },
-  {
-    "language": "dut",
-    "year": 2000
-  },
-  {
-    "language": "dut",
-    "year": 2008
-  },
-  {
-    "language": "dut",
-    "year": 2001
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 2017
-  },
-  {
-    "language": "dut",
-    "year": 2018
-  },
-  {
-    "language": "dut",
-    "year": 2007
-  },
-  {
-    "language": "dut",
-    "year": 2015
-  },
-  {
-    "language": "dut",
-    "year": 2015
-  },
-  {
-    "language": "eng",
-    "year": 2002
-  },
-  {
-    "language": "eng",
-    "year": 2017
-  },
-  {
-    "language": "eng",
-    "year": 2011
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "eng",
-    "year": 1976
-  },
-  {
-    "language": "eng",
-    "year": 1996
-  },
-  {
-    "language": "eng",
-    "year": 1969
-  },
-  {
-    "language": "eng",
-    "year": 1972
-  },
-  {
-    "language": "eng",
-    "year": 2015
-  },
-  {
-    "language": "eng",
-    "year": 2001
-  },
-  {
-    "language": "eng",
-    "year": 2000
-  },
-  {
-    "language": "eng",
-    "year": 2004
-  },
-  {
-    "language": "eng",
-    "year": 2006
-  },
-  {
-    "language": "eng",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 2004
-  },
-  {
-    "language": "dut",
-    "year": 2013
-  },
-  {
-    "language": "eng",
-    "year": 2016
-  },
-  {
-    "language": "eng",
-    "year": 2018
-  },
-  {
-    "language": "eng",
-    "year": 1991
-  },
-  {
-    "language": "eng",
-    "year": null
-  },
-  {
-    "language": "eng",
-    "year": 1986
-  },
-  {
-    "language": "Language unknown",
-    "year": 1979
-  },
-  {
-    "language": "eng",
-    "year": 2007
-  },
-  {
-    "language": "dut",
-    "year": 2007
-  },
-  {
-    "language": "eng",
-    "year": 2012
-  },
-  {
-    "language": "eng",
-    "year": 2011
-  },
-  {
-    "language": "eng",
-    "year": 2011
-  },
-  {
-    "language": "eng",
-    "year": 1986
-  },
-  {
-    "language": "dut",
-    "year": 2013
-  },
-  {
-    "language": "eng",
-    "year": 2014
-  },
-  {
-    "language": "eng",
-    "year": 2014
-  },
-  {
-    "language": "eng",
-    "year": 2015
-  },
-  {
-    "language": "eng",
-    "year": 2016
-  },
-  {
-    "language": "eng",
-    "year": 2017
-  },
-  {
-    "language": "eng",
-    "year": 2017
-  },
-  {
-    "language": "eng",
-    "year": 2005
-  },
-  {
-    "language": "eng",
     "year": 1985
   },
   {
-    "language": "eng",
-    "year": 2000
-  },
-  {
-    "language": "eng",
-    "year": 2001
-  },
-  {
-    "language": "eng",
-    "year": 2000
-  },
-  {
-    "language": "eng",
-    "year": 2001
-  },
-  {
-    "language": "eng",
-    "year": 1997
-  },
-  {
-    "language": "eng",
-    "year": 2004
-  },
-  {
-    "language": "eng",
-    "year": 1979
-  },
-  {
-    "language": "Language unknown",
-    "year": 2005
-  },
-  {
-    "language": "eng",
-    "year": 2005
-  },
-  {
-    "language": "eng",
-    "year": 2006
-  },
-  {
-    "language": "eng",
-    "year": 2006
-  },
-  {
-    "language": "eng",
-    "year": 2007
-  },
-  {
-    "language": "eng",
-    "year": 2006
-  },
-  {
-    "language": "eng",
-    "year": 2004
-  },
-  {
-    "language": "eng",
-    "year": 1998
-  },
-  {
-    "language": "eng",
-    "year": 2010
-  },
-  {
-    "language": "eng",
-    "year": 2008
-  },
-  {
-    "language": "Language unknown",
-    "year": 2004
-  },
-  {
-    "language": "eng",
-    "year": 1986
-  },
-  {
     "language": "dut",
-    "year": 2002
-  },
-  {
-    "language": "eng",
-    "year": 1989
-  },
-  {
-    "language": "eng",
-    "year": 2005
-  },
-  {
-    "language": "eng",
-    "year": 1996
-  },
-  {
-    "language": "eng",
-    "year": 2006
-  },
-  {
-    "language": "dut",
-    "year": 2011
-  },
-  {
-    "language": "eng",
-    "year": 2012
-  },
-  {
-    "language": "eng",
-    "year": 2013
-  },
-  {
-    "language": "eng",
-    "year": 2013
-  },
-  {
-    "language": "eng",
-    "year": 2014
-  },
-  {
-    "language": "eng",
-    "year": 2014
-  },
-  {
-    "language": "eng",
-    "year": 2014
-  },
-  {
-    "language": "eng",
-    "year": 2015
-  },
-  {
-    "language": "eng",
-    "year": 2016
-  },
-  {
-    "language": "eng",
-    "year": 2017
-  },
-  {
-    "language": "eng",
-    "year": 2017
-  },
-  {
-    "language": "eng",
-    "year": 2017
-  },
-  {
-    "language": "eng",
-    "year": 2017
-  },
-  {
-    "language": "eng",
-    "year": 2018
-  },
-  {
-    "language": "eng",
-    "year": 2018
-  },
-  {
-    "language": "eng",
-    "year": 2004
-  },
-  {
-    "language": "Language unknown",
-    "year": 1996
-  },
-  {
-    "language": "Language unknown",
-    "year": 1969
-  },
-  {
-    "language": "eng",
-    "year": 2001
-  },
-  {
-    "language": "eng",
-    "year": 1955
-  },
-  {
-    "language": "eng",
-    "year": 2002
-  },
-  {
-    "language": "eng",
-    "year": 2004
-  },
-  {
-    "language": "eng",
-    "year": 2000
-  },
-  {
-    "language": "eng",
-    "year": 2002
-  },
-  {
-    "language": "eng",
-    "year": 1993
-  },
-  {
-    "language": "Language unknown",
-    "year": 1979
-  },
-  {
-    "language": "Language unknown",
-    "year": 2005
-  },
-  {
-    "language": "eng",
-    "year": 1997
-  },
-  {
-    "language": "eng",
-    "year": 2003
-  },
-  {
-    "language": "Language unknown",
-    "year": 1987
-  },
-  {
-    "language": "eng",
-    "year": 1995
-  },
-  {
-    "language": "eng",
-    "year": 2003
-  },
-  {
-    "language": "eng",
-    "year": 1977
-  },
-  {
-    "language": "eng",
-    "year": 1989
-  },
-  {
-    "language": "eng",
-    "year": 2004
-  },
-  {
-    "language": "eng",
     "year": 1994
   },
   {
-    "language": "eng",
+    "language": "dut",
     "year": 1996
   },
   {
-    "language": "eng",
-    "year": 2001
-  },
-  {
-    "language": "eng",
-    "year": 2005
-  },
-  {
-    "language": "eng",
-    "year": 2004
-  },
-  {
-    "language": "eng",
-    "year": 2006
-  },
-  {
-    "language": "eng",
-    "year": 2006
-  },
-  {
-    "language": "eng",
-    "year": 2006
-  },
-  {
-    "language": "eng",
-    "year": 2006
-  },
-  {
-    "language": "eng",
-    "year": 2007
-  },
-  {
-    "language": "Language unknown",
-    "year": 1997
-  },
-  {
-    "language": "eng",
-    "year": 2006
-  },
-  {
-    "language": "eng",
-    "year": 2008
-  },
-  {
-    "language": "eng",
-    "year": 1990
-  },
-  {
-    "language": "eng",
-    "year": 2009
-  },
-  {
-    "language": "eng",
-    "year": 2008
-  },
-  {
-    "language": "eng",
-    "year": 2009
-  },
-  {
-    "language": "eng",
-    "year": 2007
-  },
-  {
-    "language": "eng",
-    "year": 2011
-  },
-  {
     "language": "dut",
-    "year": 1993
-  },
-  {
-    "language": "dut",
-    "year": 1990
-  },
-  {
-    "language": "dut",
-    "year": 1989
-  },
-  {
-    "language": "dut",
-    "year": 1991
-  },
-  {
-    "language": "dut",
-    "year": 1987
-  },
-  {
-    "language": "dut",
-    "year": 2001
-  },
-  {
-    "language": "eng",
-    "year": 1989
-  },
-  {
-    "language": "eng",
-    "year": 1991
-  },
-  {
-    "language": "eng",
-    "year": 1995
-  },
-  {
-    "language": "eng",
-    "year": 2008
-  },
-  {
-    "language": "eng",
     "year": 1992
   },
   {
-    "language": "eng",
+    "language": "dut",
+    "year": 1988
+  },
+  {
+    "language": "dut",
     "year": 1986
   },
   {
-    "language": "eng",
-    "year": 2010
-  },
-  {
-    "language": "eng",
-    "year": 2001
-  },
-  {
-    "language": "eng",
-    "year": 2004
-  },
-  {
+    "language": "dut",
     "year": 2005
   },
   {
-    "language": "eng",
-    "year": 2004
-  },
-  {
-    "language": "eng",
-    "year": 1998
-  },
-  {
-    "language": "eng",
-    "year": 1998
-  },
-  {
-    "language": "eng",
-    "year": 2006
+    "language": "dut",
+    "year": 2008
   },
   {
     "language": "dut",
-    "year": 2009
+    "year": 2010
+  },
+  {
+    "language": "Language unknown",
+    "year": 1983
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 2001
   },
   {
     "language": "dut",
@@ -1121,31 +1446,159 @@ module.exports=[
   },
   {
     "language": "dut",
-    "year": 2009
+    "year": 1991
   },
   {
     "language": "dut",
-    "year": 2014
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 1993
-  },
-  {
-    "language": "Language unknown",
     "year": 1967
   },
   {
     "language": "dut",
-    "year": 2008
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 1940
+  },
+  {
+    "language": "dut",
+    "year": 1985
+  },
+  {
+    "language": "dut",
+    "year": 1912
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "dut",
+    "year": 2015
   },
   {
     "language": "dut",
     "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2002
+  },
+  {
+    "language": "dut",
+    "year": 2002
+  },
+  {
+    "language": "dut",
+    "year": 1990
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "Language unknown",
+    "year": 1962
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "Language unknown",
+    "year": 1947
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "Language unknown",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "Language unknown",
+    "year": 1997
+  },
+  {
+    "language": "Language unknown",
+    "year": 1991
+  },
+  {
+    "language": "Language unknown",
+    "year": 1985
+  },
+  {
+    "language": "dut",
+    "year": 1987
+  },
+  {
+    "language": "Language unknown",
+    "year": 1939
+  },
+  {
+    "language": "Language unknown",
+    "year": 1989
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 1943
+  },
+  {
+    "language": "dut",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 1940
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 2010
   },
   {
     "language": "dut",
@@ -1156,12 +1609,132 @@ module.exports=[
     "year": 2011
   },
   {
-    "language": "fre",
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "Language unknown",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 2003
+  },
+  {
+    "language": "Language unknown",
+    "year": 1982
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "dut",
+    "year": 1993
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
     "year": 2011
   },
   {
     "language": "dut",
-    "year": 1992
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "Language unknown",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 1977
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 1989
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 1941
+  },
+  {
+    "language": "dut",
+    "year": 1997
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 1979
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 2010
   },
   {
     "language": "dut",
@@ -1169,227 +1742,115 @@ module.exports=[
   },
   {
     "language": "dut",
-    "year": 1978
-  },
-  {
-    "language": "dut",
-    "year": 1978
+    "year": 1977
   },
   {
     "language": "Language unknown",
-    "year": 1994
-  },
-  {
-    "language": "eng",
-    "year": 2012
+    "year": 1972
   },
   {
     "language": "dut",
-    "year": 2012
+    "year": 2006
   },
   {
     "language": "dut",
-    "year": 1991
+    "year": 2016
   },
   {
-    "language": "eng",
-    "year": 2002
+    "language": "dut",
+    "year": 1987
   },
   {
-    "language": "eng",
-    "year": 2011
+    "language": "dut",
+    "year": 1987
   },
   {
-    "language": "eng",
-    "year": 2010
-  },
-  {
-    "language": "eng",
-    "year": 2012
-  },
-  {
-    "language": "mul",
-    "year": 2015
-  },
-  {
-    "language": "eng",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "eng",
-    "year": 2018
+    "language": "dut",
+    "year": 1987
   },
   {
     "language": "dut",
-    "year": 1981
+    "year": 1998
   },
   {
     "language": "dut",
-    "year": 1981
-  },
-  {
-    "language": "eng",
-    "year": 1982
-  },
-  {
-    "language": "eng",
-    "year": 1978
+    "year": 1947
   },
   {
     "language": "dut",
-    "year": 1938
+    "year": 2006
+  },
+  {
+    "language": "Language unknown",
+    "year": 1989
   },
   {
     "language": "dut",
-    "year": 1938
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 2013
+    "year": 1992
   },
   {
     "language": "dut",
     "year": 2003
   },
   {
-    "language": "eng",
-    "year": 2010
+    "language": "dut",
+    "year": 1989
   },
   {
-    "language": "eng",
-    "year": 2012
+    "language": "dut",
+    "year": 2009
   },
   {
-    "language": "eng",
-    "year": 2008
-  },
-  {
-    "language": "eng",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "eng",
-    "year": 2015
+    "language": "Language unknown",
+    "year": 1982
   },
   {
-    "language": "eng",
+    "language": "Language unknown",
+    "year": 1930
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 1987
+  },
+  {
+    "language": "dut",
     "year": 1986
   },
   {
     "language": "dut",
-    "year": 2009
+    "year": 1996
   },
   {
     "language": "dut",
-    "year": 2013
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 2015
-  },
-  {
-    "language": "dut",
-    "year": 2016
-  },
-  {
-    "language": "dut",
-    "year": 2017
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "tur",
-    "year": 2012
-  },
-  {
-    "language": "dut",
-    "year": 2012
-  },
-  {
-    "language": "dut",
-    "year": 2015
-  },
-  {
-    "language": "dut",
-    "year": 2012
-  },
-  {
-    "language": "dut",
-    "year": 2017
-  },
-  {
-    "language": "dut",
-    "year": 2011
-  },
-  {
-    "language": "dut",
-    "year": 2015
-  },
-  {
-    "language": "eng",
-    "year": 2017
-  },
-  {
-    "language": "eng",
-    "year": 2006
-  },
-  {
-    "language": "dut",
-    "year": 2013
-  },
-  {
-    "language": "dut",
-    "year": 2012
-  },
-  {
-    "language": "dut",
-    "year": 2008
-  },
-  {
-    "language": "dut",
-    "year": 2005
-  },
-  {
-    "language": "eng",
-    "year": 2004
-  },
-  {
-    "language": "dut",
-    "year": 2004
-  },
-  {
-    "language": "dut",
-    "year": 2008
-  },
-  {
-    "language": "dut",
-    "year": 2018
-  },
-  {
-    "language": "dut",
-    "year": 1999
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "tur",
     "year": 1995
   },
   {
-    "language": "eng",
-    "year": 2009
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "Language unknown",
+    "year": 1996
+  },
+  {
+    "language": "dut",
+    "year": 1989
   },
   {
     "language": "dut",
@@ -1397,359 +1858,47 @@ module.exports=[
   },
   {
     "language": "dut",
-    "year": 2017
+    "year": 2003
+  },
+  {
+    "language": "dut",
+    "year": 1987
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 1989
   },
   {
     "language": "dut",
     "year": 2015
-  },
-  {
-    "language": "dut",
-    "year": 2016
-  },
-  {
-    "language": "dut",
-    "year": 2016
-  },
-  {
-    "language": "dut",
-    "year": 2008
-  },
-  {
-    "language": "eng",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 2013
-  },
-  {
-    "language": "ger",
-    "year": 2005
-  },
-  {
-    "language": "dut",
-    "year": 2014
-  },
-  {
-    "language": "dut",
-    "year": 2016
-  },
-  {
-    "language": "dut",
-    "year": 2013
-  },
-  {
-    "language": "eng",
-    "year": 2008
-  },
-  {
-    "language": "dut",
-    "year": 2011
-  },
-  {
-    "language": "dut",
-    "year": 2011
-  },
-  {
-    "language": "dut",
-    "year": 2016
-  },
-  {
-    "language": "eng",
-    "year": 2013
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 2014
-  },
-  {
-    "language": "eng",
-    "year": 2016
-  },
-  {
-    "language": "eng",
-    "year": 2000
-  },
-  {
-    "language": "eng",
-    "year": 2008
-  },
-  {
-    "language": "dut",
-    "year": 2016
-  },
-  {
-    "language": "dut",
-    "year": 2007
-  },
-  {
-    "language": "dut",
-    "year": 1981
-  },
-  {
-    "language": "dut",
-    "year": 2007
-  },
-  {
-    "language": "tur",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 2013
-  },
-  {
-    "language": "eng",
-    "year": 2004
-  },
-  {
-    "language": "dut",
-    "year": 1954
-  },
-  {
-    "language": "dut",
-    "year": 1989
-  },
-  {
-    "language": "ger",
-    "year": 1991
-  },
-  {
-    "language": "ger",
-    "year": 1994
-  },
-  {
-    "language": "eng",
-    "year": 1989
-  },
-  {
-    "language": "dut",
-    "year": 1965
   },
   {
     "language": "dut",
     "year": 1990
-  },
-  {
-    "language": "eng",
-    "year": 1989
-  },
-  {
-    "language": "eng",
-    "year": 1994
-  },
-  {
-    "language": "dut",
-    "year": 1988
-  },
-  {
-    "language": "ger",
-    "year": 1997
-  },
-  {
-    "language": "dut",
-    "year": 1993
-  },
-  {
-    "language": "eng",
-    "year": 1994
-  },
-  {
-    "language": "ger",
-    "year": 1966
-  },
-  {
-    "language": "dut",
-    "year": 1991
   },
   {
     "language": "dut",
     "year": 1984
   },
   {
-    "language": "eng",
+    "language": "dut",
+    "year": 1986
+  },
+  {
+    "language": "dut",
     "year": 1972
   },
   {
     "language": "dut",
-    "year": 2003
-  },
-  {
-    "language": "eng",
-    "year": 1990
-  },
-  {
-    "language": "eng",
-    "year": 2002
-  },
-  {
-    "language": "eng",
-    "year": 1988
-  },
-  {
-    "language": "eng",
-    "year": 1998
-  },
-  {
-    "language": "dut",
-    "year": 1992
-  },
-  {
-    "language": "eng",
-    "year": 1992
-  },
-  {
-    "language": "dut",
-    "year": 2003
-  },
-  {
-    "language": "dut",
-    "year": 2002
-  },
-  {
-    "language": "eng",
-    "year": 1966
-  },
-  {
-    "language": "eng",
-    "year": 1982
-  },
-  {
-    "language": "eng",
-    "year": 2003
-  },
-  {
-    "language": "eng",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "eng",
-    "year": 1989
-  },
-  {
-    "language": "eng",
-    "year": 1990
-  },
-  {
-    "language": "dut",
-    "year": 1993
-  },
-  {
-    "language": "eng",
-    "year": 2001
-  },
-  {
-    "language": "ger",
-    "year": 2008
-  },
-  {
-    "language": "eng",
-    "year": 1976
-  },
-  {
-    "language": "eng",
-    "year": 2001
-  },
-  {
-    "language": "eng",
-    "year": 2014
-  },
-  {
-    "language": "eng",
-    "year": 2017
-  },
-  {
-    "language": "dut",
-    "year": 2008
-  },
-  {
-    "language": "dut",
-    "year": 2007
-  },
-  {
-    "language": "dut",
-    "year": 2015
-  },
-  {
-    "language": "dut",
     "year": 1988
   },
   {
     "language": "dut",
-    "year": 1998
-  },
-  {
-    "language": "dut",
-    "year": 2018
-  },
-  {
-    "language": "dut",
-    "year": 2007
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 2006
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "eng",
-    "year": 2008
-  },
-  {
-    "language": "dut",
-    "year": 2012
-  },
-  {
-    "language": "dut",
-    "year": 2015
-  },
-  {
-    "language": "dut",
-    "year": 2006
-  },
-  {
-    "language": "dut",
-    "year": 2007
-  },
-  {
-    "language": "dut",
-    "year": 2014
-  },
-  {
-    "language": "dut",
-    "year": 2015
-  },
-  {
-    "language": "dut",
-    "year": 2010
-  },
-  {
-    "language": "dut",
-    "year": 2012
-  },
-  {
-    "language": "eng",
-    "year": 2017
-  },
-  {
-    "language": "dut",
-    "year": 2018
+    "year": 2001
   },
   {
     "language": "dut",
@@ -1757,403 +1906,47 @@ module.exports=[
   },
   {
     "language": "dut",
-    "year": 2004
+    "year": 1936
   },
   {
     "language": "dut",
-    "year": 2009
+    "year": 1936
   },
   {
     "language": "dut",
-    "year": 2014
+    "year": 1937
   },
   {
     "language": "dut",
-    "year": 2010
+    "year": 1987
   },
   {
     "language": "dut",
-    "year": 2010
-  },
-  {
-    "language": "dut",
-    "year": 2015
-  },
-  {
-    "language": "dut",
-    "year": 2004
-  },
-  {
-    "language": "eng",
-    "year": 2008
-  },
-  {
-    "language": "dut",
-    "year": 2007
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 2017
-  },
-  {
-    "language": "dut",
-    "year": 2016
-  },
-  {
-    "language": "dut",
-    "year": 2017
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 2013
-  },
-  {
-    "language": "dut",
-    "year": 2008
-  },
-  {
-    "language": "dut",
-    "year": 2010
-  },
-  {
-    "language": "dut",
-    "year": 2010
-  },
-  {
-    "language": "dut",
-    "year": 2011
-  },
-  {
-    "language": "eng",
-    "year": 2013
-  },
-  {
-    "language": "dut",
-    "year": 2014
-  },
-  {
-    "language": "dut",
-    "year": 2014
-  },
-  {
-    "language": "dut",
-    "year": 2015
-  },
-  {
-    "language": "dut",
-    "year": 1990
-  },
-  {
-    "language": "dut",
-    "year": 2006
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 2010
-  },
-  {
-    "language": "dut",
-    "year": 2018
-  },
-  {
-    "language": "dut",
-    "year": 2011
-  },
-  {
-    "language": "dut",
-    "year": 2003
-  },
-  {
-    "language": "dut",
-    "year": 2007
-  },
-  {
-    "language": "dut",
-    "year": 2015
-  },
-  {
-    "language": "dut",
-    "year": 2003
-  },
-  {
-    "language": "eng",
-    "year": 2014
-  },
-  {
-    "language": "dut",
-    "year": 2012
-  },
-  {
-    "language": "dut",
-    "year": 2013
-  },
-  {
-    "language": "dut",
-    "year": 2005
-  },
-  {
-    "language": "eng",
-    "year": 2008
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 2011
-  },
-  {
-    "language": "dut",
-    "year": 2014
-  },
-  {
-    "language": "dut",
-    "year": 2008
-  },
-  {
-    "language": "eng",
-    "year": 2015
-  },
-  {
-    "language": "ita",
-    "year": 2017
-  },
-  {
-    "language": "dut",
-    "year": 1990
-  },
-  {
-    "language": "dut",
-    "year": 2017
-  },
-  {
-    "language": "dut",
-    "year": 2016
-  },
-  {
-    "language": "dut",
-    "year": 2014
-  },
-  {
-    "language": "dut",
-    "year": 2013
-  },
-  {
-    "language": "dut",
-    "year": 2008
-  },
-  {
-    "language": "dut",
-    "year": 2016
-  },
-  {
-    "language": "eng",
-    "year": 2016
-  },
-  {
-    "language": "dut",
-    "year": 2016
-  },
-  {
-    "language": "dut",
-    "year": 2016
-  },
-  {
-    "language": "ger",
-    "year": 2006
-  },
-  {
-    "language": "eng",
-    "year": 2006
-  },
-  {
-    "language": "dut",
-    "year": 2014
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "eng",
-    "year": 2008
-  },
-  {
-    "language": "eng",
-    "year": 2001
-  },
-  {
-    "language": "dut",
-    "year": 2014
-  },
-  {
-    "language": "dut",
-    "year": 2011
-  },
-  {
-    "language": "ara",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 1996
-  },
-  {
-    "language": "dut",
-    "year": 2018
-  },
-  {
-    "language": "dut",
-    "year": 2018
-  },
-  {
-    "language": "dut",
-    "year": 2018
-  },
-  {
-    "language": "Language unknown",
-    "year": 1977
-  },
-  {
-    "language": "Language unknown",
-    "year": 1975
-  },
-  {
-    "language": "dut",
-    "year": 2012
-  },
-  {
-    "language": "dut",
-    "year": 2017
-  },
-  {
-    "language": "dut",
-    "year": 2008
-  },
-  {
-    "language": "eng",
     "year": 1986
   },
   {
     "language": "dut",
-    "year": 2010
+    "year": 1984
   },
   {
     "language": "dut",
-    "year": 2006
+    "year": 1986
   },
   {
     "language": "dut",
-    "year": 2017
+    "year": 1997
   },
   {
     "language": "dut",
-    "year": 2009
+    "year": 1946
   },
   {
     "language": "dut",
-    "year": 2013
+    "year": 1985
   },
   {
     "language": "dut",
-    "year": 2012
-  },
-  {
-    "language": "dut",
-    "year": 2012
-  },
-  {
-    "language": "dut",
-    "year": 2011
-  },
-  {
-    "language": "dut",
-    "year": 2012
-  },
-  {
-    "language": "dut",
-    "year": 2012
-  },
-  {
-    "language": "dut",
-    "year": 2013
-  },
-  {
-    "language": "dut",
-    "year": 2007
-  },
-  {
-    "language": "dut",
-    "year": 2009
-  },
-  {
-    "language": "dut",
-    "year": 1990
-  },
-  {
-    "language": "dut",
-    "year": 2012
-  },
-  {
-    "language": "dut",
-    "year": 2012
-  },
-  {
-    "language": "dut",
-    "year": 2013
-  },
-  {
-    "language": "dut",
-    "year": 2015
-  },
-  {
-    "language": "dut",
-    "year": 2017
-  },
-  {
-    "language": "dut",
-    "year": 2018
-  },
-  {
-    "language": "Language unknown",
-    "year": 1989
-  },
-  {
-    "language": "Language unknown",
-    "year": 106
-  },
-  {
-    "language": "dut",
-    "year": 2006
-  },
-  {
-    "language": "dut",
-    "year": 2006
-  },
-  {
-    "language": "dut",
-    "year": 2007
-  },
-  {
-    "language": "eng",
-    "year": 2007
+    "year": 1986
   },
   {
     "language": "dut",
@@ -2161,31 +1954,171 @@ module.exports=[
   },
   {
     "language": "dut",
-    "year": 2008
+    "year": 1987
   },
   {
     "language": "dut",
-    "year": 2008
+    "year": 1987
   },
   {
     "language": "dut",
-    "year": 2009
+    "year": 1988
   },
   {
     "language": "dut",
-    "year": 2009
+    "year": 2007
   },
   {
-    "language": "eng",
-    "year": 2010
+    "language": "dut",
+    "year": 1987
   },
   {
-    "language": "eng",
-    "year": 2010
+    "language": "dut",
+    "year": 1992
   },
   {
-    "language": "eng",
-    "year": 1996
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 1947
+  },
+  {
+    "language": "Language unknown",
+    "year": 1937
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 1997
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 1980
+  },
+  {
+    "language": "dut",
+    "year": 1999
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 2002
+  },
+  {
+    "language": "dut",
+    "year": 1981
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 1988
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 1940
+  },
+  {
+    "language": "dut",
+    "year": 1937
+  },
+  {
+    "language": "dut",
+    "year": 2000
   },
   {
     "language": "dut",
@@ -2193,94 +2126,335 @@ module.exports=[
   },
   {
     "language": "dut",
-    "year": 1988
-  },
-  {
-    "language": "spa",
-    "year": 1993
+    "year": 1985
   },
   {
     "language": "dut",
-    "year": 1994
-  },
-  {
-    "language": "eng",
-    "year": 2009
-  },
-  {
-    "language": "eng",
-    "year": 2017
-  },
-  {
-    "language": "dut",
-    "year": 2006
-  },
-  {
-    "language": "eng",
-    "year": 2014
-  },
-  {
-    "language": "eng",
-    "year": 2015
-  },
-  {
-    "language": "dut",
-    "year": 2018
-  },
-  {
-    "language": "eng",
     "year": 1991
   },
   {
-    "language": "fre",
-    "year": 1991
+    "language": "dut",
+    "year": 1996
   },
   {
-    "language": "eng",
-    "year": 2006
+    "language": "dut",
+    "year": 1966
   },
   {
-    "language": "eng",
-    "year": 1957
+    "language": "dut",
+    "year": 1935
   },
   {
-    "language": "eng",
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
     "year": 1998
   },
   {
-    "language": "eng",
-    "year": 1981
+    "language": "dut",
+    "year": 1982
   },
   {
     "language": "dut",
-    "year": 1991
+    "year": 1923
   },
   {
-    "language": "swe",
-    "year": 1994
-  },
-  {
-    "language": "eng",
-    "year": 2013
-  },
-  {
-    "language": "eng",
-    "year": 2016
-  },
-  {
-    "language": "eng",
-    "year": 2009
+    "language": "dut",
+    "year": 1985
   },
   {
     "language": "dut",
     "year": 1990
+  },
+  {
+    "language": "dut",
+    "year": 1977
+  },
+  {
+    "language": "dut",
+    "year": 1983
+  },
+  {
+    "language": "dut",
+    "year": 1985
+  },
+  {
+    "language": "dut",
+    "year": 1935
+  },
+  {
+    "language": "dut",
+    "year": 1935
+  },
+  {
+    "language": "dut",
+    "year": 1997
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 1941
+  },
+  {
+    "language": "dut",
+    "year": 1921
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 1980
+  },
+  {
+    "language": "dut",
+    "year": 1957
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "dut",
+    "year": 1959
+  },
+  {
+    "language": "dut",
+    "year": 1938
+  },
+  {
+    "language": "dut",
+    "year": 1974
+  },
+  {
+    "language": "dut",
+    "year": 1996
+  },
+  {
+    "language": "dut",
+    "year": 1977
+  },
+  {
+    "language": "dut",
+    "year": 1980
+  },
+  {
+    "language": "dut",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 1989
+  },
+  {
+    "language": "dut",
+    "year": 1948
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 1996
+  },
+  {
+    "language": "dut",
+    "year": 1971
+  },
+  {
+    "language": "dut",
+    "year": 1985
+  },
+  {
+    "language": "dut",
+    "year": 1985
+  },
+  {
+    "language": "dut",
+    "year": 1946
+  },
+  {
+    "language": "dut",
+    "year": 1938
+  },
+  {
+    "language": "dut",
+    "year": 1953
+  },
+  {
+    "language": "dut",
+    "year": 1930
+  },
+  {
+    "language": "dut",
+    "year": 2002
   },
   {
     "language": "dut",
     "year": 2001
   },
   {
-    "year": 1995
+    "language": "dut",
+    "year": 1996
+  },
+  {
+    "language": "dut",
+    "year": 1985
+  },
+  {
+    "language": "dut",
+    "year": 1997
+  },
+  {
+    "language": "dut",
+    "year": 1985
+  },
+  {
+    "language": "dut",
+    "year": 1988
+  },
+  {
+    "language": "dut",
+    "year": 1954
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 1979
+  },
+  {
+    "language": "dut",
+    "year": 1924
+  },
+  {
+    "language": "dut",
+    "year": 1984
+  },
+  {
+    "language": "dut",
+    "year": 1960
+  },
+  {
+    "language": "dut",
+    "year": 1941
+  },
+  {
+    "language": "dut",
+    "year": 1990
+  },
+  {
+    "language": "dut",
+    "year": 1970
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 1963
+  },
+  {
+    "language": "dut",
+    "year": 1980
+  },
+  {
+    "language": "dut",
+    "year": 1982
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "ger",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 1944
+  },
+  {
+    "language": "dut",
+    "year": 1950
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 1990
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2005
   },
   {
     "language": "dut",
@@ -2288,43 +2462,19 @@ module.exports=[
   },
   {
     "language": "dut",
-    "year": 2013
+    "year": 1948
   },
   {
-    "language": "eng",
-    "year": 1989
+    "language": "dut",
+    "year": 2007
   },
   {
-    "language": "ger",
-    "year": 1988
+    "language": "dut",
+    "year": 2016
   },
   {
-    "language": "eng",
-    "year": 1988
-  },
-  {
-    "language": "eng",
-    "year": 1989
-  },
-  {
-    "language": "eng",
-    "year": 1991
-  },
-  {
-    "language": "ger",
-    "year": 1989
-  },
-  {
-    "language": "eng",
-    "year": 1989
-  },
-  {
-    "language": "eng",
-    "year": 1994
-  },
-  {
-    "language": "eng",
-    "year": 1992
+    "language": "dut",
+    "year": 2005
   },
   {
     "language": "dut",
@@ -2335,8 +2485,28 @@ module.exports=[
     "year": 2017
   },
   {
-    "language": "eng",
-    "year": 1989
+    "language": "dut",
+    "year": 2003
+  },
+  {
+    "language": "dut",
+    "year": 1986
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 1998
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 1997
   },
   {
     "language": "dut",
@@ -2344,176 +2514,1512 @@ module.exports=[
   },
   {
     "language": "dut",
-    "year": 1996
+    "year": 2006
   },
   {
-    "language": "ger",
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 1998
+  },
+  {
+    "language": "dut",
+    "year": 1990
+  },
+  {
+    "language": "dut",
+    "year": 1966
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 1985
+  },
+  {
+    "language": "dut",
+    "year": 1978
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 1983
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 1953
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "dut",
+    "year": 1993
+  },
+  {
+    "language": "dut",
+    "year": 2003
+  },
+  {
+    "language": "dut",
+    "year": 1990
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
     "year": 1988
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 1998
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "dut",
+    "year": 1924
+  },
+  {
+    "language": "dut",
+    "year": 1998
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 1948
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 1993
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 1993
+  },
+  {
+    "language": "dut",
+    "year": 1985
   },
   {
     "language": "dut",
     "year": 1987
   },
   {
-    "language": "eng",
-    "year": 1992
+    "language": "dut",
+    "year": 2001
   },
   {
     "language": "dut",
-    "year": 1991
-  },
-  {
-    "language": "dut",
-    "year": 1995
-  },
-  {
-    "language": "dut",
-    "year": 1992
-  },
-  {
-    "language": "eng",
-    "year": 1991
-  },
-  {
-    "language": "eng",
-    "year": 2000
-  },
-  {
-    "language": "eng",
-    "year": 2017
-  },
-  {
-    "language": "eng",
-    "year": 1990
-  },
-  {
-    "language": "eng",
-    "year": 2009
-  },
-  {
-    "language": "eng",
-    "year": 2012
-  },
-  {
-    "language": "eng",
-    "year": 2011
-  },
-  {
-    "language": "eng",
-    "year": 2011
-  },
-  {
-    "language": "eng",
     "year": 2008
   },
   {
-    "language": "eng",
-    "year": 2008
-  },
-  {
-    "language": "eng",
-    "year": 2014
-  },
-  {
-    "language": "eng",
-    "year": 2011
-  },
-  {
-    "language": "eng",
-    "year": 2009
-  },
-  {
-    "language": "eng",
+    "language": "Language unknown",
     "year": 1979
   },
   {
-    "language": "eng",
-    "year": 1995
+    "language": "Language unknown",
+    "year": 1994
   },
   {
-    "language": "eng",
-    "year": 2015
+    "language": "Language unknown",
+    "year": 1983
   },
   {
-    "language": "eng",
-    "year": 1992
+    "language": "Language unknown",
+    "year": 1979
   },
   {
-    "language": "eng",
-    "year": 1981
+    "language": "dut",
+    "year": 1993
   },
   {
-    "language": "eng",
-    "year": 2015
+    "language": "dut",
+    "year": 2006
   },
   {
-    "language": "eng",
-    "year": 1999
+    "language": "dut",
+    "year": 2004
   },
   {
-    "language": "eng",
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 1910
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 1983
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "eng",
-    "year": 2003
+    "language": "dut",
+    "year": 1965
   },
   {
-    "language": "eng",
-    "year": 1995
+    "language": "Language unknown",
+    "year": 1972
   },
   {
-    "language": "eng",
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "eng",
-    "year": 1999
+    "language": "dut",
+    "year": 2011
   },
   {
-    "language": "eng",
-    "year": 2016
+    "language": "dut",
+    "year": 2014
   },
   {
-    "language": "eng",
-    "year": 2002
-  },
-  {
-    "language": "por",
-    "year": 2013
-  },
-  {
-    "language": "eng",
-    "year": 2002
-  },
-  {
-    "language": "eng",
-    "year": 1976
-  },
-  {
-    "language": "eng",
-    "year": 2003
-  },
-  {
-    "language": "eng",
+    "language": "dut",
     "year": 1996
   },
   {
-    "language": "eng",
+    "language": "dut",
+    "year": 1925
+  },
+  {
+    "language": "dut",
+    "year": 2003
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 1971
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "Language unknown",
+    "year": 1941
+  },
+  {
+    "language": "Language unknown",
+    "year": 1968
+  },
+  {
+    "language": "dut",
+    "year": 2003
+  },
+  {
+    "language": "dut",
+    "year": 1997
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 1908
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "dut",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "Language unknown",
+    "year": 1979
+  },
+  {
+    "language": "Language unknown",
+    "year": 1941
+  },
+  {
+    "language": "dut",
+    "year": 1980
+  },
+  {
+    "language": "Language unknown",
+    "year": 1985
+  },
+  {
+    "language": "Language unknown",
+    "year": 1980
+  },
+  {
+    "language": "Language unknown",
+    "year": 1979
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 1984
+  },
+  {
+    "language": "dut",
+    "year": 1852
+  },
+  {
+    "language": "dut",
+    "year": 1988
+  },
+  {
+    "language": "dut",
+    "year": 1984
+  },
+  {
+    "language": "dut",
+    "year": 1962
+  },
+  {
+    "language": "dut",
+    "year": 1997
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 1998
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 1956
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "Language unknown",
+    "year": 1941
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 1954
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 1982
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 1998
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "dut",
+    "year": 1965
+  },
+  {
+    "language": "dut",
+    "year": 1989
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "dut",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 1987
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "dut",
+    "year": 1974
+  },
+  {
+    "language": "dut",
+    "year": 1999
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": null
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "Language unknown",
+    "year": 1993
+  },
+  {
+    "language": "Language unknown",
+    "year": 1983
+  },
+  {
+    "language": "Language unknown",
+    "year": 124
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 1986
+  },
+  {
+    "language": "dut",
     "year": 2005
   },
   {
-    "language": "eng",
+    "language": "dut",
+    "year": 1997
+  },
+  {
+    "language": "dut",
     "year": 2002
   },
   {
-    "language": "eng",
+    "language": "dut",
+    "year": 1997
+  },
+  {
+    "language": "dut",
+    "year": 1992
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "Language unknown",
+    "year": 1996
+  },
+  {
+    "language": "dut",
+    "year": 1978
+  },
+  {
+    "language": "dut",
+    "year": 2003
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "Language unknown",
+    "year": 1984
+  },
+  {
+    "language": "Language unknown",
+    "year": 1926
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 1999
+  },
+  {
+    "language": "Language unknown",
+    "year": 1972
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 1997
+  },
+  {
+    "language": "Language unknown",
+    "year": 1993
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "Language unknown",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 1920
+  },
+  {
+    "language": "dut",
+    "year": 2002
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "Language unknown",
+    "year": 1993
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 2002
+  },
+  {
+    "language": "dut",
+    "year": 1966
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 1996
+  },
+  {
+    "language": "dut",
+    "year": 1997
+  },
+  {
+    "language": "Language unknown",
+    "year": 1955
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 1950
+  },
+  {
+    "language": "dut",
+    "year": 1934
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 2003
+  },
+  {
+    "language": "dut",
     "year": 1998
+  },
+  {
+    "language": "Language unknown",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 1994
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 1998
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "dut",
+    "year": 1987
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "dut",
+    "year": 1984
+  },
+  {
+    "language": "dut",
+    "year": 1985
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 1984
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 1996
+  },
+  {
+    "language": "dut",
+    "year": 1985
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 1992
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 1984
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 1983
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "Language unknown",
+    "year": 1981
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "dut",
+    "year": 2003
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 1997
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 1998
+  },
+  {
+    "language": "dut",
+    "year": 2004
+  },
+  {
+    "language": "dut",
+    "year": 1995
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 1967
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2012
+  },
+  {
+    "language": "dut",
+    "year": 2001
+  },
+  {
+    "language": "dut",
+    "year": 1993
+  },
+  {
+    "language": "dut",
+    "year": 1988
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2003
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 1990
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 1998
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2003
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 2017
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "dut",
+    "year": 2002
+  },
+  {
+    "language": "dut",
+    "year": 1998
+  },
+  {
+    "language": "dut",
+    "year": 1993
+  },
+  {
+    "language": "dut",
+    "year": 1998
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "dut",
+    "year": 1990
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 1980
+  },
+  {
+    "language": "dut",
+    "year": 1974
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "cze",
+    "year": 2002
+  },
+  {
+    "language": "dut",
+    "year": 2000
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 1996
+  },
+  {
+    "language": "dut",
+    "year": 1978
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 1949
+  },
+  {
+    "language": "dut",
+    "year": 1990
+  },
+  {
+    "language": "dut",
+    "year": 1992
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 1974
+  },
+  {
+    "language": "dut",
+    "year": 2018
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 1983
+  },
+  {
+    "language": "dut",
+    "year": 1990
+  },
+  {
+    "language": "dut",
+    "year": 1990
+  },
+  {
+    "language": "dut",
+    "year": 1979
+  },
+  {
+    "language": "dut",
+    "year": 1982
+  },
+  {
+    "language": "dut",
+    "year": 1993
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 2014
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 1991
+  },
+  {
+    "language": "Language unknown",
+    "year": 1989
+  },
+  {
+    "language": "dut",
+    "year": 2011
+  },
+  {
+    "language": "dut",
+    "year": 2007
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2015
+  },
+  {
+    "language": "dut",
+    "year": 2016
+  },
+  {
+    "language": "dut",
+    "year": 2005
+  },
+  {
+    "language": "dut",
+    "year": 2006
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 2008
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2010
+  },
+  {
+    "language": "dut",
+    "year": 2002
+  },
+  {
+    "language": "dut",
+    "year": 2002
+  },
+  {
+    "language": "dut",
+    "year": 2013
+  },
+  {
+    "language": "dut",
+    "year": 1985
+  },
+  {
+    "language": "dut",
+    "year": 2009
+  },
+  {
+    "language": "dut",
+    "year": 1989
   }
 ]
 },{}],2:[function(require,module,exports){
+module.exports=[
+  {
+    "language": "eng",
+    "percent": 73.7
+  },
+  {
+    "language": "dut",
+    "percent": 15.4
+  },
+  {
+    "language": "ger",
+    "percent": 4.9
+  },
+  {
+    "language": "mul",
+    "percent": 3.6
+  },
+  {
+    "language": "ara",
+    "percent": 1.0
+  }
+]
+
+},{}],3:[function(require,module,exports){
 var data = require('./data.json')
-console.log(data)
+var dataPie = require('./dataPie.json')
 
 var languagesCount = d3
   .nest()
@@ -2524,7 +4030,28 @@ var languagesCount = d3
     return v.length
   })
   .entries(data)
-console.log(JSON.stringify(languagesCount))
+//console.log(languagesCount)
+//console.log(countTotal(languagesCount))
+
+// add up all values in array
+function countTotal(array) {
+  var total = 0
+  array.forEach(function(d) {
+    total = total + d.value
+  })
+  return total
+}
+
+//percentages for pie chart
+var pie_data = []
+for (var a = 0; a < languagesCount.length; a++) {
+  // simple logic to calculate percentage data for the pie
+  pie_data[a] = {
+    language: languagesCount[a].key,
+    percent: (languagesCount[a].value / countTotal(languagesCount)) * 100
+  }
+}
+console.log(pie_data)
 
 var maxYear = d3.max(data, function(d) {
   return d.year
@@ -2542,7 +4069,7 @@ const margin = 60
 const width = 1000 - 2 * margin
 const height = 600 - 2 * margin
 
-const svg = d3.select('svg')
+const svg = d3.select('.barchart')
 
 const chart = svg
   .append('g')
@@ -2551,7 +4078,7 @@ const chart = svg
 const yScale = d3
   .scaleLinear()
   .range([height, 0])
-  .domain([0, languagesCount[0].value + 50])
+  .domain([0, languagesCount[0].value + 10])
 
 chart.append('g').call(d3.axisLeft(yScale))
 
@@ -2606,4 +4133,72 @@ svg
   .attr('text-anchor', 'middle')
   .text('Populariteit van boeken over het web')
 
-},{"./data.json":1}]},{},[2]);
+// pie chart http://www.tutorialsteacher.com/d3js/create-pie-chart-using-d3js
+var svgPie = d3.select('.piechart'),
+  widthPie = svgPie.attr('width'),
+  heightPie = svgPie.attr('height'),
+  radiusPie = Math.min(widthPie, heightPie) / 2
+
+var g = svgPie
+  .append('g')
+  .attr('transform', 'translate(' + widthPie / 2 + ',' + heightPie / 2 + ')')
+
+var color = d3.scaleOrdinal([
+  '#4daf4a',
+  '#377eb8',
+  '#ff7f00',
+  '#984ea3',
+  '#e41a1c'
+])
+
+var pie = d3.pie().value(function(d) {
+  return d.percent
+})
+
+var path = d3
+  .arc()
+  .outerRadius(radiusPie - 10)
+  .innerRadius(0)
+
+var label = d3
+  .arc()
+  .outerRadius(radiusPie)
+  .innerRadius(radiusPie - 80)
+
+drawPie(pie_data)
+
+function drawPie(data) {
+  var arc = g
+    .selectAll('.arc')
+    .data(pie(data))
+    .enter()
+    .append('g')
+    .attr('class', 'arc')
+
+  arc
+    .append('path')
+    .attr('d', path)
+    .attr('fill', function(d) {
+      return color(d.data.language)
+    })
+
+  console.log(arc)
+
+  arc
+    .append('text')
+    .attr('transform', function(d) {
+      return 'translate(' + label.centroid(d) + ')'
+    })
+    .text(function(d) {
+      return d.data.language
+    })
+}
+
+svgPie
+  .append('g')
+  .attr('transform', 'translate(' + (width / 2 - 120) + ',' + 20 + ')')
+  .append('text')
+  .text('Percentage taal')
+  .attr('class', 'title')
+
+},{"./data.json":1,"./dataPie.json":2}]},{},[3]);
