@@ -167,7 +167,7 @@ function updatePieChart(data) {
   var svgPie = d3.select('.piechart'),
     widthPie = svgPie.attr('width'),
     heightPie = svgPie.attr('height'),
-    radiusPie = Math.min(widthPie, heightPie) / 2
+    radiusPie = Math.min(widthPie - 50, heightPie - 50) / 2
 
   var g = svgPie
     .append('g')
@@ -241,7 +241,7 @@ function updatePieChart(data) {
     })
   svgPie
     .append('g')
-    .attr('transform', 'translate(' + (widthPie / 2 - 200) + ',' + 20 + ')')
+    .attr('transform', 'translate(' + (widthPie - 130) / 2 + ',' + 20 + ')')
     .append('text')
     .text('Percentage taal')
     .attr('class', 'title')
