@@ -1,10 +1,16 @@
 body {
-  padding-left: 5%;
+  display: flex;
 }
 
 .barchart {
   height: 100vh;
-  width: 100vw;
+  width: 50vw;
+  padding-left: 5%;
+}
+
+.piechart {
+  padding-top: 5%;
+  height: 100vh;
 }
 
 .grid path {
@@ -14,4 +20,9 @@ body {
 .grid .tick line {
   stroke: #9faaae;
   stroke-opacity: 0.5;
+}
+
+#inds {
+  position: absolute;
+  left: 2%;
 }

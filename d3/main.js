@@ -37,7 +37,7 @@ var yearAvg = d3.mean(data, function(d) {
 function updateBarChart(data) {
   var languagesCount = languagesCounter(data)
   const margin = 60
-  const width = 1000 - 2 * margin
+  const width = 600 - 2 * margin
   const height = 600 - 2 * margin
   const svg = d3.select('.barchart')
 
@@ -48,7 +48,7 @@ function updateBarChart(data) {
   const yScale = d3
     .scaleLinear()
     .range([height, 0])
-    .domain([0, languagesCount[0].value + 10])
+    .domain([0, languagesCount[0].value + 5])
 
   chart.append('g').call(d3.axisLeft(yScale))
 
@@ -101,7 +101,7 @@ function updateBarChart(data) {
     .attr('x', width / 2 + margin)
     .attr('y', 40)
     .attr('text-anchor', 'middle')
-    .text('Populariteit van boeken over het web')
+    .text('Populariteit van boeken met de term "website"')
 }
 
 // pie chart http://www.tutorialsteacher.com/d3js/create-pie-chart-using-d3js
@@ -174,7 +174,7 @@ function updatePieChart(data) {
 
   svgPie
     .append('g')
-    .attr('transform', 'translate(' + (widthPie / 2 - 120) + ',' + 20 + ')')
+    .attr('transform', 'translate(' + (widthPie / 2 - 200) + ',' + 20 + ')')
     .append('text')
     .text('Percentage taal')
     .attr('class', 'title')
@@ -183,7 +183,10 @@ function updatePieChart(data) {
 var early = data.filter(item => item.year < 2000 && item.year > 1990)
 var mid = data.filter(item => item.year < 2010 && item.year > 2000)
 var late = data.filter(item => item.year > 2010)
-//console.log(early, mid, late)
+
+//draw zero state
+updateBarChart(early)
+updatePieChart(early)
 
 // dropdown
 // http://bl.ocks.org/jhubley/17aa30fd98eb0cc7072f
@@ -192,6 +195,7 @@ d3.select('#inds').on('change', function() {
   var section = sect.options[sect.selectedIndex].value
   // this prints either 1990, 2000 or 2010
   if (section == 1990) {
+    // clearing the previous charts
     d3.selectAll('svg > *').remove()
     updateBarChart(early)
     updatePieChart(early)
