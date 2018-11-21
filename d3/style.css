@@ -7,7 +7,11 @@ body {
 }
 
 .bar {
-  fill: grey;
+  fill: green;
+}
+
+text {
+  font-family: sans-serif;
 }
 
 .pie {

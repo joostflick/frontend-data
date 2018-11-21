@@ -6,6 +6,8 @@ const client = new OBAWrapper({
   public: process.env.DB_PUBLIC,
   secret: process.env.DB_SECRET
 })
+
+// do a get request using the OBA wrapper by @rijkvanzanten & @maanlamp
 client
   .get('search', {
     q: 'website',
@@ -14,7 +16,7 @@ client
     count: 1000
   })
   .then(results => {
-    console.log(JSON.stringify(results))
+    //console.log(JSON.stringify(results))
     var boeken = results.map(book => createBookInstance(book))
     var cleanedBoeken = boeken.filter(
       book => book.year != null && book.language
@@ -26,9 +28,10 @@ client
       function() {}
     )
   })
+
+// function that is used for each result of the get request, formats the book instances to only have a year and a language
 function createBookInstance(book) {
   bookInstance = {
-    // titel: book.titles.title.$t,
     language:
       !book.languages || !book.languages.language
         ? 'Language unknown'
