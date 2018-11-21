@@ -4,14 +4,17 @@ body {
 
 .highlight {
   fill: yellow;
-  border-style: dotted;
-  border-width: 3px;
 }
 
 .bar {
   fill: grey;
-  border-style: dotted;
-  border-width: 3px;
+}
+
+.pie {
+  fill-opacity: 1;
+}
+.highlightPie {
+  fill-opacity: 0.7;
 }
 .barchart {
   height: 100vh;

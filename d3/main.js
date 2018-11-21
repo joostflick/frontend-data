@@ -29,11 +29,13 @@ var tooltip = d3
   .style('position', 'absolute')
   .style('z-index', '10')
   .style('visibility', 'hidden')
-//mouseover
+//mouseover bar
 function onMouseOver(d, i) {
   d3.select(this).attr('class', 'highlight')
   //label
-  return tooltip.style('visibility', 'visible').text(d.key + ' = ' + d.value)
+  return tooltip
+    .style('visibility', 'visible')
+    .text(d.key + ' = ' + d.value + ' boeken')
 }
 function onMouseOut(d, i) {
   d3.select(this).attr('class', 'bar')
@@ -43,6 +45,19 @@ function mouseMove() {
   return tooltip
     .style('top', event.pageY - 10 + 'px')
     .style('left', event.pageX + 10 + 'px')
+}
+
+//mouseover pie
+function onMouseOverPie(d, i) {
+  d3.select(this).attr('class', 'highlightPie')
+  //label
+  return tooltip
+    .style('visibility', 'visible')
+    .text(d.data.language + ' = ' + d.value + ' percent')
+}
+function onMouseOutPie(d, i) {
+  d3.select(this).attr('class', 'pie')
+  return tooltip.style('visibility', 'hidden')
 }
 
 //barchart
@@ -178,6 +193,10 @@ function updatePieChart(data) {
     .attr('fill', function(d) {
       return color(d.data.language)
     })
+    .attr('class', 'pie')
+    .on('mouseover', onMouseOverPie)
+    .on('mouseout', onMouseOutPie)
+    .on('mousemove', mouseMove)
 
   arc
     .append('text')
