@@ -2,6 +2,17 @@ body {
   display: flex;
 }
 
+.highlight {
+  fill: yellow;
+  border-style: dotted;
+  border-width: 3px;
+}
+
+.bar {
+  fill: grey;
+  border-style: dotted;
+  border-width: 3px;
+}
 .barchart {
   height: 100vh;
   width: 50vw;

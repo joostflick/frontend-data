@@ -23,15 +23,27 @@ function countTotal(array) {
   return total
 }
 
-var maxYear = d3.max(data, function(d) {
-  return d.year
-})
-var minYear = d3.min(data, function(d) {
-  return d.year
-})
-var yearAvg = d3.mean(data, function(d) {
-  return d.year
-})
+var tooltip = d3
+  .select('body')
+  .append('div')
+  .style('position', 'absolute')
+  .style('z-index', '10')
+  .style('visibility', 'hidden')
+//mouseover
+function onMouseOver(d, i) {
+  d3.select(this).attr('class', 'highlight')
+  //label
+  return tooltip.style('visibility', 'visible').text(d.key + ' = ' + d.value)
+}
+function onMouseOut(d, i) {
+  d3.select(this).attr('class', 'bar')
+  return tooltip.style('visibility', 'hidden')
+}
+function mouseMove() {
+  return tooltip
+    .style('top', event.pageY - 10 + 'px')
+    .style('left', event.pageX + 10 + 'px')
+}
 
 //barchart
 function updateBarChart(data) {
@@ -72,6 +84,10 @@ function updateBarChart(data) {
     .attr('y', s => yScale(s.value))
     .attr('height', s => height - yScale(s.value))
     .attr('width', xScale.bandwidth())
+    .attr('class', 'bar')
+    .on('mouseover', onMouseOver)
+    .on('mouseout', onMouseOut)
+    .on('mousemove', mouseMove)
 
     .attr('x', (actual, index, array) => xScale(actual.key))
 
