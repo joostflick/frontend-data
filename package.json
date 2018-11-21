@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "browserify d3/main.js > d3/bundle.js",
+    "build": "browserify docs/main.js > docs/bundle.js",
     "data": "node index.js",
     "start": "npm run data && npm run build"
   },
