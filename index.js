@@ -6,11 +6,11 @@ const client = new OBAWrapper({
   public: process.env.DB_PUBLIC,
   secret: process.env.DB_SECRET
 })
-
+const query = 'website'
 // do a get request using the OBA wrapper by @rijkvanzanten & @maanlamp
 client
   .get('search', {
-    q: 'website',
+    q: query,
     refine: true,
     facet: 'type(book)',
     count: 1000
@@ -22,7 +22,7 @@ client
       book => book.year != null && book.language
     )
     fs.writeFile(
-      'd3/data.json',
+      'docs/data.json',
       JSON.stringify(cleanedBoeken, null, '  '),
       'utf8',
       function() {}

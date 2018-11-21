@@ -14,6 +14,12 @@ data.forEach(function(book) {
     book.language = 'Meertalig'
   } else if (book.language == 'ger') {
     book.language = 'Duits'
+  } else if (book.language == 'tur') {
+    book.language = 'Turks'
+  } else if (book.language == 'spa') {
+    book.language = 'Spaans'
+  } else if (book.language == 'swe') {
+    book.language = 'Zweeds'
   }
 })
 
@@ -46,10 +52,12 @@ var tooltip = d3
   .style('position', 'absolute')
   .style('z-index', '10')
   .style('visibility', 'hidden')
+  .attr('class', 'tooltip')
 
 // set the tooltip and style for the barchart
 function onMouseOver(d, i) {
   d3.select(this).attr('class', 'highlight')
+  d3.select('arc').attr('class', 'highlight')
   return tooltip
     .style('visibility', 'visible')
     .text(d.key + ' = ' + d.value + ' boeken')
@@ -225,6 +233,13 @@ function updatePieChart(data) {
     })
     .attr('class', 'pie')
 
+  svgPie
+    .append('g')
+    .attr('transform', 'translate(' + (widthPie - 130) / 2 + ',' + 20 + ')')
+    .append('text')
+    .text('Percentage taal')
+    .attr('class', 'title')
+
   // labels
   arc
     .append('text')
@@ -239,12 +254,6 @@ function updatePieChart(data) {
         return d.data.language
       }
     })
-  svgPie
-    .append('g')
-    .attr('transform', 'translate(' + (widthPie - 130) / 2 + ',' + 20 + ')')
-    .append('text')
-    .text('Percentage taal')
-    .attr('class', 'title')
 }
 
 // selecting time periods for the dropdown

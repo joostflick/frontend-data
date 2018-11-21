@@ -6,6 +6,9 @@ body {
   fill: yellow;
 }
 
+.tooltip {
+  font-family: sans-serif;
+}
 .bar {
   fill: green;
 }

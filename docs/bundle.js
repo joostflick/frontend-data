@@ -1,131 +1,131 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 module.exports=[
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2006
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2009
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2011
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2012
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2012
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2011
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2009
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2008
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2005
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2010
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2018
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2005
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2006
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2008
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2008
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2009
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2009
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2009
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2005
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2012
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2009
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2010
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2012
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2009
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
@@ -133,27 +133,27 @@ module.exports=[
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2012
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 1999
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2003
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2012
   },
   {
@@ -161,19 +161,19 @@ module.exports=[
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2007
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2008
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2010
   },
   {
@@ -181,15 +181,15 @@ module.exports=[
     "year": 2001
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
@@ -201,7 +201,7 @@ module.exports=[
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
@@ -213,11 +213,11 @@ module.exports=[
     "year": 2011
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2012
   },
   {
@@ -225,11 +225,11 @@ module.exports=[
     "year": 2005
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
@@ -245,27 +245,27 @@ module.exports=[
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2009
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2010
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
@@ -273,7 +273,7 @@ module.exports=[
     "year": 2004
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2008
   },
   {
@@ -281,7 +281,7 @@ module.exports=[
     "year": 2008
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2008
   },
   {
@@ -289,7 +289,7 @@ module.exports=[
     "year": 2000
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2011
   },
   {
@@ -297,19 +297,19 @@ module.exports=[
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2010
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2011
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2009
   },
   {
@@ -317,127 +317,127 @@ module.exports=[
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2011
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2005
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2006
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2007
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2007
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2011
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2007
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2005
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2006
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2006
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2006
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2011
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2007
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2018
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2006
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2005
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2006
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2011
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2011
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2012
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2018
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2006
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2008
   },
   {
@@ -445,235 +445,235 @@ module.exports=[
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2009
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2018
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2018
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2018
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2007
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2000
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2009
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2010
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2018
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2011
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2011
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2011
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2004
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2009
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2002
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2010
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2012
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2003
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2005
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2010
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2007
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2006
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2012
   },
   {
@@ -681,71 +681,71 @@ module.exports=[
     "year": 2011
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2002
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2002
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2002
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2008
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2018
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2018
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2010
   },
   {
@@ -753,103 +753,103 @@ module.exports=[
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2001
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2003
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2011
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2011
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2009
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2012
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2012
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
@@ -857,27 +857,27 @@ module.exports=[
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2001
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2005
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2006
   },
   {
@@ -885,51 +885,51 @@ module.exports=[
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2018
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
@@ -937,7 +937,7 @@ module.exports=[
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
@@ -945,35 +945,35 @@ module.exports=[
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2005
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2011
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2005
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
@@ -981,15 +981,15 @@ module.exports=[
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
@@ -1001,63 +1001,63 @@ module.exports=[
     "year": 2001
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2005
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2006
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2018
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2012
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
@@ -1069,39 +1069,39 @@ module.exports=[
     "year": 2018
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2002
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2004
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2004
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2004
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2010
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2008
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
@@ -1113,15 +1113,15 @@ module.exports=[
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2018
   },
   {
@@ -1129,7 +1129,7 @@ module.exports=[
     "year": 2004
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2005
   },
   {
@@ -1137,7 +1137,7 @@ module.exports=[
     "year": 2010
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2010
   },
   {
@@ -1145,47 +1145,47 @@ module.exports=[
     "year": 2010
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2018
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2018
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2018
   },
   {
@@ -1197,35 +1197,35 @@ module.exports=[
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
@@ -1237,75 +1237,75 @@ module.exports=[
     "year": 2009
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2009
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2007
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2014
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2018
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2018
   },
   {
@@ -1317,7 +1317,7 @@ module.exports=[
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2002
   },
   {
@@ -1329,23 +1329,23 @@ module.exports=[
     "year": 1996
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2004
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2007
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2004
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2002
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2006
   },
   {
@@ -1357,15 +1357,15 @@ module.exports=[
     "year": 2002
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2004
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2008
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2009
   },
   {
@@ -1373,11 +1373,11 @@ module.exports=[
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
@@ -1385,11 +1385,11 @@ module.exports=[
     "year": 2011
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2010
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2011
   },
   {
@@ -1397,15 +1397,15 @@ module.exports=[
     "year": 2001
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2004
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2015
   },
   {
@@ -1413,7 +1413,7 @@ module.exports=[
     "year": 2004
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2002
   },
   {
@@ -1421,11 +1421,11 @@ module.exports=[
     "year": 2001
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2005
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2007
   },
   {
@@ -1445,7 +1445,7 @@ module.exports=[
     "year": 2002
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
@@ -1465,11 +1465,11 @@ module.exports=[
     "year": 2004
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2012
   },
   {
@@ -1521,11 +1521,11 @@ module.exports=[
     "year": 2002
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2011
   },
   {
@@ -1533,7 +1533,7 @@ module.exports=[
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2005
   },
   {
@@ -1541,11 +1541,11 @@ module.exports=[
     "year": 2010
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2013
   },
   {
@@ -1565,19 +1565,19 @@ module.exports=[
     "year": 2007
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2009
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2016
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2005
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2007
   },
   {
@@ -1585,11 +1585,11 @@ module.exports=[
     "year": 2012
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2017
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 1997
   },
   {
@@ -1597,7 +1597,7 @@ module.exports=[
     "year": 2008
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2008
   },
   {
@@ -1613,7 +1613,7 @@ module.exports=[
     "year": 1997
   },
   {
-    "language": "Nederlands",
+    "language": "dut",
     "year": 2004
   },
   {
@@ -1654,6 +1654,12 @@ data.forEach(function(book) {
     book.language = 'Meertalig'
   } else if (book.language == 'ger') {
     book.language = 'Duits'
+  } else if (book.language == 'tur') {
+    book.language = 'Turks'
+  } else if (book.language == 'spa') {
+    book.language = 'Spaans'
+  } else if (book.language == 'swe') {
+    book.language = 'Zweeds'
   }
 })
 
@@ -1686,10 +1692,12 @@ var tooltip = d3
   .style('position', 'absolute')
   .style('z-index', '10')
   .style('visibility', 'hidden')
+  .attr('class', 'tooltip')
 
 // set the tooltip and style for the barchart
 function onMouseOver(d, i) {
   d3.select(this).attr('class', 'highlight')
+  d3.select('arc').attr('class', 'highlight')
   return tooltip
     .style('visibility', 'visible')
     .text(d.key + ' = ' + d.value + ' boeken')
@@ -1865,6 +1873,13 @@ function updatePieChart(data) {
     })
     .attr('class', 'pie')
 
+  svgPie
+    .append('g')
+    .attr('transform', 'translate(' + (widthPie - 130) / 2 + ',' + 20 + ')')
+    .append('text')
+    .text('Percentage taal')
+    .attr('class', 'title')
+
   // labels
   arc
     .append('text')
@@ -1879,12 +1894,6 @@ function updatePieChart(data) {
         return d.data.language
       }
     })
-  svgPie
-    .append('g')
-    .attr('transform', 'translate(' + (widthPie - 130) / 2 + ',' + 20 + ')')
-    .append('text')
-    .text('Percentage taal')
-    .attr('class', 'title')
 }
 
 // selecting time periods for the dropdown
