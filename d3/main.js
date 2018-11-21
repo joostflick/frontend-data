@@ -39,7 +39,6 @@ function updateBarChart(data) {
   const margin = 60
   const width = 1000 - 2 * margin
   const height = 600 - 2 * margin
-
   const svg = d3.select('.barchart')
 
   const chart = svg
@@ -106,38 +105,39 @@ function updateBarChart(data) {
 }
 
 // pie chart http://www.tutorialsteacher.com/d3js/create-pie-chart-using-d3js
-var svgPie = d3.select('.piechart'),
-  widthPie = svgPie.attr('width'),
-  heightPie = svgPie.attr('height'),
-  radiusPie = Math.min(widthPie, heightPie) / 2
-
-var g = svgPie
-  .append('g')
-  .attr('transform', 'translate(' + widthPie / 2 + ',' + heightPie / 2 + ')')
-
-var color = d3.scaleOrdinal([
-  '#4daf4a',
-  '#377eb8',
-  '#ff7f00',
-  '#984ea3',
-  '#e41a1c'
-])
-
-var pie = d3.pie().value(function(d) {
-  return d.percent
-})
-
-var path = d3
-  .arc()
-  .outerRadius(radiusPie - 10)
-  .innerRadius(0)
-
-var label = d3
-  .arc()
-  .outerRadius(radiusPie)
-  .innerRadius(radiusPie - 80)
 
 function updatePieChart(data) {
+  var svgPie = d3.select('.piechart'),
+    widthPie = svgPie.attr('width'),
+    heightPie = svgPie.attr('height'),
+    radiusPie = Math.min(widthPie, heightPie) / 2
+
+  var g = svgPie
+    .append('g')
+    .attr('transform', 'translate(' + widthPie / 2 + ',' + heightPie / 2 + ')')
+
+  var color = d3.scaleOrdinal([
+    '#4daf4a',
+    '#377eb8',
+    '#ff7f00',
+    '#984ea3',
+    '#e41a1c'
+  ])
+
+  var pie = d3.pie().value(function(d) {
+    return d.percent
+  })
+
+  var path = d3
+    .arc()
+    .outerRadius(radiusPie - 10)
+    .innerRadius(0)
+
+  var label = d3
+    .arc()
+    .outerRadius(radiusPie)
+    .innerRadius(radiusPie - 80)
+
   var pie_data = []
   var languagesCount = languagesCounter(data)
   //percentages for pie chart
@@ -192,12 +192,15 @@ d3.select('#inds').on('change', function() {
   var section = sect.options[sect.selectedIndex].value
   // this prints either 1990, 2000 or 2010
   if (section == 1990) {
+    d3.selectAll('svg > *').remove()
     updateBarChart(early)
     updatePieChart(early)
   } else if (section == 2000) {
+    d3.selectAll('svg > *').remove()
     updateBarChart(mid)
     updatePieChart(mid)
   } else if (section == 2010) {
+    d3.selectAll('svg > *').remove()
     updateBarChart(late)
     updatePieChart(late)
   } else {
