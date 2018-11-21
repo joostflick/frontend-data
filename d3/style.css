@@ -29,6 +29,7 @@ text {
 .piechart {
   padding-top: 5%;
   height: 100vh;
+  padding-right: 2%;
 }
 
 .grid path {

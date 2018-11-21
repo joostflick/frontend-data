@@ -232,9 +232,13 @@ function updatePieChart(data) {
       return 'translate(' + label.centroid(d) + ')'
     })
     .text(function(d) {
-      return d.data.language
+      // smallest value don't get a printed label, only on mouse over, to prevent visual clutter
+      if (d.data.percent < 10) {
+        return
+      } else {
+        return d.data.language
+      }
     })
-
   svgPie
     .append('g')
     .attr('transform', 'translate(' + (widthPie / 2 - 200) + ',' + 20 + ')')
