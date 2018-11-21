@@ -23,12 +23,35 @@ data.forEach(function(book) {
   }
 })
 
+var detailGraph = document.getElementById('detailchart')
+// functionality for clicking a language
+function clickLang(d, i) {
+  updateDetailChart(data.filter(item => item.language == d.key))
+  detailGraph.scrollIntoView()
+}
+function clickLangPie(d, i) {
+  updateDetailChart(data.filter(item => item.language == d.data.language))
+  detailGraph.scrollIntoView()
+}
 // pass data to this function to return an array with the unique languages and amount of books for that language
 function languagesCounter(data) {
   return d3
     .nest()
     .key(function(d) {
       return d.language
+    })
+    .rollup(function(v) {
+      return v.length
+    })
+    .entries(data)
+}
+
+// same as above but using years
+function yearCounter(data) {
+  return d3
+    .nest()
+    .key(function(d) {
+      return d.year
     })
     .rollup(function(v) {
       return v.length
@@ -92,6 +115,9 @@ function onMouseOutPie(d, i) {
 // partially from https://blog.risingstack.com/d3-js-tutorial-bar-charts-with-javascript/
 function updateBarChart(data) {
   var languagesCount = languagesCounter(data)
+  var maxNumber = d3.max(languagesCount, function(d) {
+    return +d.value
+  })
 
   // dimensions
   const margin = 60
@@ -107,7 +133,7 @@ function updateBarChart(data) {
   const yScale = d3
     .scaleLinear()
     .range([height, 0])
-    .domain([0, languagesCount[0].value + 5])
+    .domain([0, maxNumber + 5])
 
   chart.append('g').call(d3.axisLeft(yScale))
 
@@ -132,6 +158,7 @@ function updateBarChart(data) {
     .on('mouseover', onMouseOver)
     .on('mouseout', onMouseOut)
     .on('mousemove', mouseMove)
+    .on('click', clickLang)
     .transition()
     .duration(400)
     .attr('height', s => height - yScale(s.value))
@@ -227,6 +254,7 @@ function updatePieChart(data) {
     .on('mouseover', onMouseOverPie)
     .on('mouseout', onMouseOutPie)
     .on('mousemove', mouseMove)
+    .on('click', clickLangPie)
     .attr('d', path)
     .attr('fill', function(d) {
       return color(d.data.language)
@@ -256,6 +284,96 @@ function updatePieChart(data) {
     })
 }
 
+function updateDetailChart(data) {
+  d3.selectAll('.detailchart > *').remove()
+  var unorderedData = yearCounter(data)
+  var dataByYear = unorderedData.reverse()
+  dataByYear.sort(function(x, y) {
+    return d3.ascending(x.key, y.key)
+  })
+
+  var maxNumber = d3.max(dataByYear, function(d) {
+    return +d.value
+  })
+
+  const margin = 60
+  const width = 1000 - 2 * margin
+  const height = 600 - 2 * margin
+
+  var language = data[0].language
+
+  const svg = d3.select('.detailchart')
+
+  const chart = svg
+    .append('g')
+    .attr('transform', `translate(${margin}, ${margin})`)
+
+  const yScale = d3
+    .scaleLinear()
+    .range([height, 0])
+    .domain([0, maxNumber + 5])
+
+  chart.append('g').call(d3.axisLeft(yScale))
+
+  const xScale = d3
+    .scaleBand()
+    .range([0, width])
+    .domain(dataByYear.map(d => d.key))
+    .padding(0.2)
+
+  chart
+    .append('g')
+    .attr('transform', `translate(0, ${height})`)
+    .call(d3.axisBottom(xScale))
+
+  chart
+    .selectAll()
+    .data(dataByYear)
+    .enter()
+    .append('rect')
+    .attr('x', s => xScale(s.key))
+    .attr('y', s => yScale(s.value))
+    .on('mouseover', onMouseOver)
+    .on('mouseout', onMouseOut)
+    .on('mousemove', mouseMove)
+    .on('click', clickLang)
+    .transition()
+    .duration(400)
+    .attr('height', s => height - yScale(s.value))
+    .attr('width', xScale.bandwidth())
+    .attr('class', 'bar')
+
+    .attr('x', (actual, index, array) => xScale(actual.key))
+
+  // drawing horizontal lines
+  chart
+    .append('g')
+    .attr('class', 'grid')
+    .call(
+      d3
+        .axisLeft()
+        .scale(yScale)
+        .tickSize(-width, 0, 0)
+        .tickFormat('')
+    )
+
+  // adding labels
+  svg
+    .append('text')
+    .attr('x', -(height / 2) - margin)
+    .attr('y', margin / 2.4)
+    .attr('transform', 'rotate(-90)')
+    .attr('text-anchor', 'middle')
+    .text('Aantal boeken')
+
+  svg
+    .append('text')
+    .attr('x', width / 2 + margin)
+    .attr('y', 40)
+    .attr('text-anchor', 'middle')
+    .text('Hoeveelheid boeken uitgebracht per jaar in de taal ' + language)
+}
+
 // selecting time periods for the dropdown
 var early = data.filter(item => item.year < 2000 && item.year >= 1990)
 var mid = data.filter(item => item.year < 2010 && item.year >= 2000)
@@ -270,19 +388,17 @@ updatePieChart(early)
 d3.select('#inds').on('change', function() {
   var sect = document.getElementById('inds')
   var section = sect.options[sect.selectedIndex].value
+  // clearing the previous charts
+  d3.selectAll('svg > *').remove()
   // this prints either 1990, 2000 or 2010 based on the html dropdown
   if (section == 1990) {
-    // clearing the previous charts
-    d3.selectAll('svg > *').remove()
     // drawing the new charts
     updateBarChart(early)
     updatePieChart(early)
   } else if (section == 2000) {
-    d3.selectAll('svg > *').remove()
     updateBarChart(mid)
     updatePieChart(mid)
   } else if (section == 2010) {
-    d3.selectAll('svg > *').remove()
     updateBarChart(late)
     updatePieChart(late)
   } else {
