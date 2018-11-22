@@ -4,7 +4,7 @@
 
 I left the spaghetti I created last week behind me and started afresh on this new project.
 
-This time I decided to use the oba wrapper made by wouter (maanlamp) which significantly improved my life (and my application).
+This time I decided to use the oba wrapper made by wouter (maanlamp) to retrieve my data which significantly improved my life (and my application).
 
 I implemented the following commands:
 
@@ -22,11 +22,17 @@ Runs both of the above commands, first retrieving data then building the app so 
 
 ## What does my application do?
 
-Make a get request to the oba api, and uses the data received to draw a bar chart displaying the absolute values, along with a pie chart that shows the percentual values.
+Make a get request to the oba api, and uses the data received to draw a bar chart displaying the absolute values, along with a pie chart that shows the percentual values. It also draws a second bar chart to display just one language over the years.
 
 The bar chart visualizes the amount of books per language for a certain time period. The pie chart visualizes the distribution between those languages.
 
 This gives the user an insight on the change over time both in the amount of books and the distribution between languages.
+
+The main functionality should work with all sorts of different queries, and my ultimate goal was to make it possible for the user to do his/her own searches.
+
+This would make for a tool on which the user can check the popularity of a certain term over time, and how that popularity is distributed across different languages.
+
+Because I didn't have the time to implement this the app now uses a example query: website.
 
 ## What's the story
 
@@ -51,3 +57,17 @@ The user is brought back to the main view by clicking the back to top button.
 ![detail](./img/image2.png)
 
 [Try it out yourself here!](https://joostflick.github.io/frontend-data/)
+
+## Pain points
+
+- D3 functionality, converting blocks or observables to something I can use
+- Finding a convenient way to get my data to the browser to be used for my graphs
+- Converting data to usable formats
+- Using D3 selectors without console logging almost everything
+
+## What would I have done differently if given more time
+
+- Separating the chart logic/styling and the data so I only have to update the bar chart instead of redrawing the entire thing
+- Styling
+- Playing with more complex data (more fields, more information)
+- Ability to make a get request from the browser to use your own queries, and be able to see how their popularity changed over the years in different languages
