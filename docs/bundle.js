@@ -1725,8 +1725,8 @@ var tooltip = d3
 
 // set the tooltip and style for the barchart
 function onMouseOver(d, i) {
+  console.log(this)
   d3.select(this).attr('class', 'highlight')
-  d3.select('arc').attr('class', 'highlight')
   return tooltip
     .style('visibility', 'visible')
     .text(d.key + ' = ' + d.value + ' boeken')
