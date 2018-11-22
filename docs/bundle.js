@@ -1976,7 +1976,6 @@ function updateDetailChart(data) {
     .on('mouseover', onMouseOver)
     .on('mouseout', onMouseOut)
     .on('mousemove', mouseMove)
-    .on('click', clickLang)
     .transition()
     .duration(400)
     .attr('height', s => height - yScale(s.value))
