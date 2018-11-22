@@ -4,13 +4,14 @@
 
 .highlight {
   fill: yellow;
+  stroke: black;
 }
 
 .tooltip {
   font-family: sans-serif;
 }
 .bar {
-  fill: green;
+  stroke: black;
 }
 
 text {

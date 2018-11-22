@@ -1639,7 +1639,13 @@ module.exports=[
 ]
 },{}],2:[function(require,module,exports){
 var data = require('./data.json')
-
+var color = d3.scaleOrdinal([
+  '#4daf4a',
+  '#377eb8',
+  '#ff7f00',
+  '#984ea3',
+  '#e41a1c'
+])
 // make language field of data more readable
 data.forEach(function(book) {
   if (book.language == 'dut') {
@@ -1795,6 +1801,7 @@ function updateBarChart(data) {
     .append('rect')
     .attr('x', s => xScale(s.key))
     .attr('y', s => yScale(s.value))
+
     .on('mouseover', onMouseOver)
     .on('mouseout', onMouseOut)
     .on('mousemove', mouseMove)
@@ -1804,6 +1811,9 @@ function updateBarChart(data) {
     .attr('height', s => height - yScale(s.value))
     .attr('width', xScale.bandwidth())
     .attr('class', 'bar')
+    .attr('fill', function(d) {
+      return color(d.key)
+    })
 
     .attr('x', (actual, index, array) => xScale(actual.key))
 
@@ -1847,14 +1857,6 @@ function updatePieChart(data) {
   var g = svgPie
     .append('g')
     .attr('transform', 'translate(' + widthPie / 2 + ',' + heightPie / 2 + ')')
-
-  var color = d3.scaleOrdinal([
-    '#4daf4a',
-    '#377eb8',
-    '#ff7f00',
-    '#984ea3',
-    '#e41a1c'
-  ])
 
   var pie = d3.pie().value(function(d) {
     return d.percent
@@ -1978,6 +1980,7 @@ function updateDetailChart(data) {
     .on('mousemove', mouseMove)
     .transition()
     .duration(400)
+    .attr('fill', 'green')
     .attr('height', s => height - yScale(s.value))
     .attr('width', xScale.bandwidth())
     .attr('class', 'bar')
