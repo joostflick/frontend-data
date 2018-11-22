@@ -1,5 +1,17 @@
 ![Main view](./img/image1.png)
 
+## Installation
+
+1. Download the project
+2. Run `npm install`
+3. To change the query edit the query var in index.js
+4. Run `npm start`
+5. Open docs/index.html in your browser
+
+## linting
+
+I used prettier in VScode using the prettier defaults but with no closing `;`
+
 # frontend-data
 
 I left the spaghetti I created last week behind me and started afresh on this new project.
@@ -40,6 +52,13 @@ My request retrieves all books found by the query 'website'. By selecting a time
 
 When clicking on one of the languages it is also possible to see the distribution of this language across the years in a separate chart. This gives a more precise insight in the distribution over time.
 
+The following research questions could be answered by using my application:
+
+1. How many books are written about this subject during a certain timeperiod?
+2. In which language were those books?
+3. What was the percentual distribution of the languages of the books?
+4. Per language, how many books about this subject were published each year?
+
 ## Data usage
 
 This application uses only the 'year' and 'language' attributes of all books that match the query. Books with no year are filtered out, and books with no language get the 'language unkown' tag.
@@ -65,7 +84,7 @@ The user is brought back to the main view by clicking the back to top button.
 - Converting data to usable formats
 - Using D3 selectors without console logging almost everything
 
-## What would I have done differently if given more time
+## What would I have done differently if I had more time
 
 - Separating the chart logic/styling and the data so I only have to update the bar chart instead of redrawing the entire thing
 - Styling
