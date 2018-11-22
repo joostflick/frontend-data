@@ -1,4 +1,5 @@
 var data = require('./data.json')
+// colors to be used by bar & pie chart
 var color = d3.scaleOrdinal([
   '#4daf4a',
   '#377eb8',
@@ -52,7 +53,7 @@ function languagesCounter(data) {
     .entries(data)
 }
 
-// same as above but using years
+// same as above but for years
 function yearCounter(data) {
   return d3
     .nest()
@@ -91,6 +92,7 @@ function onMouseOver(d, i) {
     .style('visibility', 'visible')
     .text(d.key + ' = ' + d.value + ' boeken')
 }
+
 function onMouseOut(d, i) {
   d3.select(this).attr('class', 'bar')
   return tooltip.style('visibility', 'hidden')
@@ -106,7 +108,7 @@ function mouseMove() {
 // set the tooltip and style for the piechart
 function onMouseOverPie(d, i) {
   d3.select(this).attr('class', 'highlightPie')
-  //label
+  // tooltip label
   return tooltip
     .style('visibility', 'visible')
     .text(d.data.language + ' = ~' + Math.round(d.value) + '%')
@@ -161,7 +163,7 @@ function updateBarChart(data) {
     .append('rect')
     .attr('x', s => xScale(s.key))
     .attr('y', s => yScale(s.value))
-
+    // mouse events
     .on('mouseover', onMouseOver)
     .on('mouseout', onMouseOut)
     .on('mousemove', mouseMove)
@@ -207,7 +209,6 @@ function updateBarChart(data) {
 }
 
 // drawing the pie chart, partially from http://www.tutorialsteacher.com/d3js/create-pie-chart-using-d3js
-
 function updatePieChart(data) {
   var svgPie = d3.select('.piechart'),
     widthPie = svgPie.attr('width'),
@@ -232,6 +233,7 @@ function updatePieChart(data) {
     .outerRadius(radiusPie)
     .innerRadius(radiusPie - 80)
 
+  // create new data in percentages to be used by the pie chart
   var pie_data = []
   var languagesCount = languagesCounter(data)
 
@@ -270,7 +272,7 @@ function updatePieChart(data) {
     .text('Percentage taal')
     .attr('class', 'title')
 
-  // labels
+  // labels on pie
   arc
     .append('text')
     .attr('transform', function(d) {
@@ -286,6 +288,7 @@ function updatePieChart(data) {
     })
 }
 
+// draw the chart for each individual language
 function updateDetailChart(data) {
   d3.selectAll('.detailchart > *').remove()
   var unorderedData = yearCounter(data)
