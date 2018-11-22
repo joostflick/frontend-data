@@ -9,13 +9,16 @@ This time I decided to use the oba wrapper made by wouter (maanlamp) which signi
 I implemented the following commands:
 
 `npm run build`
+
 Runs browserify to make my application usable in a browser environment
 
 `npm run data`
-Makes a get request to retrieve new data
+
+Makes a get request to retrieve new data and add it to the d3 environment
 
 `npm start`
-Runs both of the above commands, first retrieving data then building the app
+
+Runs both of the above commands, first retrieving data then building the app so it can be displayed in the browser
 
 ## What does my application do?
 
@@ -27,9 +30,9 @@ This gives the user an insight on the change over time both in the amount of boo
 
 ## What's the story
 
-My request retrieves all books found by the query 'website'. By selecting a time period (1990-2000, 2000-2010, 2010-now) the user (you) is able to see a shift in both the amount of books written about websites as well as the changing distribution in the languages those books are written in.
+My request retrieves all books found by the query 'website'. By selecting a time period (1990-2000, 2000-2010, 2010-now) the user (you) is able to see a shift in both the amount of books written about websites as well as the changing distribution in the languages those books were written in.
 
-When clicking on one of the languages it is also possible to see the distribution of this language across the years in a separate chart.
+When clicking on one of the languages it is also possible to see the distribution of this language across the years in a separate chart. This gives a more precise insight in the distribution over time.
 
 ## Data usage
 
@@ -46,3 +49,5 @@ When selecting a language by clicking on the bar or pie chart, the view of the w
 The user is brought back to the main view by clicking the back to top button.
 
 ![detail](./img/image2.png)
+
+[Try it out yourself here!](https://joostflick.github.io/frontend-data/)
